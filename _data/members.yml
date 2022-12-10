@@ -1,0 +1,99 @@
+- name: Lifeng Zhou
+  degrees: PhD
+  image: lifeng.jpg
+  altimage:
+  position: >
+    Assistant Professor of [Electrical and Computer Engineering](https://drexel.edu/engineering/academics/departments/electrical-computer-engineering/){:target="_blank"} <br/>
+  email: lz457@drexel.edu
+  website: https://lfzhou917.github.io/
+  scholar: 0sNe1G4AAAAJ
+  linkedin: lifeng-zhou-18135aa6
+
+- name: Peihan Li
+  degrees: PhD Student
+  image: peihan.jpg
+  altimage:
+  position:
+  email: pl525@drexel.edu
+  linkedin: peihan-carl-li-980033178
+  scholar: 
+  twitter: 
+  description: MS, Mechanical Engineering, University of Pennsylvania, 2020 - 2022
+  description1: BS, Mechanical Engineering, Penn State University, 2016 - 2020
+
+- name: Amirhosein Chahe
+  degrees: PhD Student
+  image: amirhosein.jpg
+  altimage:
+  position:
+  email: amirhoseinchahe@gmail.com
+  website: https://sites.google.com/view/amirhoseinchahe
+  scholar: 
+  twitter: 
+  description: BS, Mechanical Engineering, University of Tehran, 2017 - 2021
+  description1: BS Minor, Management, University of Tehran, 2018 - 2021 
+
+- name: Bill Cai
+  degrees: MEng Student
+  image: Bill.jpg
+  altimage:
+  position:
+  linkedin: bill-cai
+  email: sc3568@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: BE, Electrical and Electronics Engineering, Drexel University, 2016 - 2021
+
+- name: Urvish Bharti
+  degrees: MS Student
+  image: Urvish.png
+  altimage:
+  position:
+  linkedin: urvish-bharti-092b5b18b
+  email: ub48@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: BE, Mechatronics, NMIMS, 2017 - 2021
+  description1: BE Minor, Robotics and IoT, NMIMS, 2019 - 2021 
+
+- name: Adeeb Abbas
+  degrees: BS Student
+  image: Adeeb.png
+  altimage:
+  position:
+  linkedin: adeeb10abbas
+  email: aa4239@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: BS, Computer Engineering, Drexel University, 2018 - 
+
+- name: Blessing Dixon
+  degrees: MS & BS Student
+  image: DBlessing.png
+  altimage:
+  position:
+  linkedin: blessing-dixon-6a3901101
+  email: bfd27@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: MS, Electrical Engineering, Drexel University, 2020 - 
+  description1: BS, Computer Engineering, Drexel University, 2019 - 
+
+- name: Andrew DeLuca
+  degrees: BS Student
+  image: Andrew.jpg
+  altimage:
+  position:
+  linkedin: andrewdeluca2002
+  email: amd629@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: BASc, Engineering Technology, Drexel University, 2022 -    
+
+
+
