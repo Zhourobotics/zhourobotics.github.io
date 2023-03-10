@@ -33,7 +33,7 @@ nav_order: 3
         {% if person.orcid %}
           <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
         {% endif %} <br>
-        {{person.description}} 
+        {{person.description}}
         {{person.description1| markdownify}}
     </div>
 <!--     <div class="col-sm-8">

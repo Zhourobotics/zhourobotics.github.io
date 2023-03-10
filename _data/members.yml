@@ -13,87 +13,109 @@
   degrees: PhD Student
   image: peihan.jpg
   altimage:
-  position:
   email: pl525@drexel.edu
   linkedin: peihan-carl-li-980033178
   scholar: 
   twitter: 
-  description: MS, Mechanical Engineering, University of Pennsylvania, 2020 - 2022
-  description1: BS, Mechanical Engineering, Penn State University, 2016 - 2020
+  position: Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> MS, Mechanical Engineering, University of Pennsylvania, 2020 - 2022 <br/> BS, Mechanical Engineering, Penn State University, 2016 - 2020
+  description:
+  description1: 
 
 - name: Amirhosein Chahe
   degrees: PhD Student
   image: amirhosein.jpg
   altimage:
-  position:
-  email: amirhoseinchahe@gmail.com
+  position: Electrical and Computer Engineering, Drexel University, Spring 2023 - <br/> BS, Mechanical Engineering, University of Tehran, 2017 - 2021 <br/> BS Minor, Management, University of Tehran, 2018 - 2021 
+  email: ac4462@drexel.edu
   website: https://sites.google.com/view/amirhoseinchahe
   scholar: 
-  twitter: 
-  description: BS, Mechanical Engineering, University of Tehran, 2017 - 2021
-  description1: BS Minor, Management, University of Tehran, 2018 - 2021 
+  twitter:
+  description: 
+  description1: 
+
+- name: Zijian An
+  degrees: PhD Student (Incoming)
+  image: Zijian.jpeg
+  altimage:
+  position:  Electrical and Computer Engineering, Drexel University, Fall 2023 - <br/> MS, Mechanical Engineering, University of Pennsylvania, 2021 - 2023 <br/> BS, Mechanical Engineering, Chongqing University, China, 2017 - 2021
+  email: anzijian@seas.upenn.edu  
+  website:
+  description: 
+  description1: 
+  
 
 - name: Bill Cai
   degrees: MEng Student
   image: Bill.jpg
   altimage:
-  position:
+  position:  Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> BE, Electrical and Electronics Engineering, Drexel University, 2016 - 2021
   linkedin: bill-cai
   email: sc3568@drexel.edu
   website:
   scholar: 
   twitter: 
-  description: BE, Electrical and Electronics Engineering, Drexel University, 2016 - 2021
+  description: 
 
-- name: Urvish Bharti
+- name: Bhavana Gudiguntla
+  degrees: MS Student
+  image: Bhavana.jpg
+  altimage:
+  position:  Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> BE, Electronics and Telecommunication Engineering, PCE, 2017-2021
+  linkedin: bhavanaraj-g
+  email: bg653@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: 
+
+- name: Urvish Bharti 
   degrees: MS Student
   image: Urvish.png
   altimage:
-  position:
+  position:  Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> BE, Mechatronics, NMIMS, 2017 - 2021 <br/> BE Minor, Robotics and IoT, NMIMS, 2019 - 2021 
   linkedin: urvish-bharti-092b5b18b
   email: ub48@drexel.edu
   website:
   scholar: 
-  twitter: 
-  description: BE, Mechatronics, NMIMS, 2017 - 2021
-  description1: BE Minor, Robotics and IoT, NMIMS, 2019 - 2021 
+  twitter:
+  description: 
+  description1: 
 
 - name: Adeeb Abbas
   degrees: BS Student
   image: Adeeb.png
   altimage:
-  position:
+  position: Computer Engineering, Drexel University, 2018 - 
   linkedin: adeeb10abbas
   email: aa4239@drexel.edu
   website:
   scholar: 
   twitter: 
-  description: BS, Computer Engineering, Drexel University, 2018 - 
+  description: 
 
-- name: Blessing Dixon
-  degrees: MS & BS Student
+- name: Blessing Dixon 
+  degrees: MS & BS Student 
   image: DBlessing.png
   altimage:
-  position:
   linkedin: blessing-dixon-6a3901101
   email: bfd27@drexel.edu
   website:
   scholar: 
   twitter: 
-  description: MS, Electrical Engineering, Drexel University, 2020 - 
-  description1: BS, Computer Engineering, Drexel University, 2019 - 
+  position: Computer Engineering, Drexel University, 2019 - 
+  description: 
 
-- name: Andrew DeLuca
+- name: Andrew DeLuca 
   degrees: BS Student
   image: Andrew.jpg
   altimage:
-  position:
+  position: Engineering Technology, Drexel University, 2022 -    
   linkedin: andrewdeluca2002
   email: amd629@drexel.edu
   website:
   scholar: 
   twitter: 
-  description: BASc, Engineering Technology, Drexel University, 2022 -    
+  description: 
 
 
 
