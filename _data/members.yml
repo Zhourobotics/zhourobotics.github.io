@@ -79,7 +79,20 @@
   scholar: 
   twitter:
   description: 
-  description1: 
+  description1:
+
+- name: Vikram Shahapur 
+  degrees: MS Student
+  image: Vikram.jpg
+  altimage:
+  position:  Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> BE, Mechanical Engineering, KLE Tech University - Hubballi (India), 2018 - 2022
+  linkedin: vikram-shahapur-754572166
+  email: vs642@drexel.edu
+  website:
+  scholar: 
+  twitter:
+  description: 
+  description1:    
 
 - name: Adeeb Abbas
   degrees: BS Student
