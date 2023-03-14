@@ -106,16 +106,16 @@
   twitter: 
   description: 
 
-- name: Blessing Dixon 
-  degrees: MS & BS Student 
-  image: DBlessing.png
+- name: Abe Jeyapratap
+  degrees: BS Student
+  image: Abe.png
   altimage:
-  linkedin: blessing-dixon-6a3901101
-  email: bfd27@drexel.edu
+  position: Computer Science, Drexel University, 2020 - 
+  linkedin: 
+  email: aj928@drexel.edu
   website:
   scholar: 
   twitter: 
-  position: Computer Engineering, Drexel University, 2019 - 
   description: 
 
 - name: Andrew DeLuca 
@@ -128,7 +128,21 @@
   website:
   scholar: 
   twitter: 
+  description:
+
+- name: Blessing Dixon 
+  degrees: MS & BS Student 
+  image: DBlessing.png
+  altimage:
+  linkedin: blessing-dixon-6a3901101
+  email: bfd27@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  position: Computer Engineering, Drexel University, 2019 - 
   description: 
+
+ 
 
 
 
