@@ -33,12 +33,15 @@ social: true  # includes social icons at the bottom of the page
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="assets/img/robotcar.jpg">
-    </div>   
+    </div> 
     <div class="carousel-item ">
       <img class="d-block w-100" src="assets/img/crazyfliedrone.png">
+    </div>  
+    <div class="carousel-item ">
+      <img class="d-block w-100" src="assets/img/robottargt.jpeg">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/pioneers.png">
+      <img class="d-block w-100" src="assets/img/autovehicle.jpeg">
     </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
