@@ -2,7 +2,7 @@
 layout: page
 title: Air Ground Collaboration 
 description: 
-img: assets/img/huskydronemin.JPG
+img: assets/img/huskydrone.png
 importance: 3
 category: current
 ---

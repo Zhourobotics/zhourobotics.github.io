@@ -157,6 +157,18 @@
   twitter: 
   description:     
 
+- name: Abe Jeyapratap
+  degrees: BS Student
+  image: Abe.png
+  altimage:
+  position: Computer Science, Drexel University, 2020 - 
+  linkedin: abe-jeyapratap
+  email: aj928@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: 
+    
 - name: Muhammad Abdullah
   degrees: BS Student
   image: Muhammad.jpg
@@ -169,17 +181,7 @@
   twitter: 
   description: 
 
-- name: Abe Jeyapratap
-  degrees: BS Student
-  image: Abe.png
-  altimage:
-  position: Computer Science, Drexel University, 2020 - 
-  linkedin: abe-jeyapratap
-  email: aj928@drexel.edu
-  website:
-  scholar: 
-  twitter: 
-  description: 
+
 
 
 

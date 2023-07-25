@@ -3,7 +3,7 @@ layout: page
 title: Robust Perception
 description: 
 img: assets/img/autovehicle.jpeg
-importance: 2
+importance: 4
 category: current
 ---
 
