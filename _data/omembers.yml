@@ -4,21 +4,26 @@
   degree2: BS, Computer Science and Engineering, The Chinese University of Hong Kong, Shenzhen, China, 2017 - 2021
   website: 
  
-- name: Rahul Zahroof
+- name: Ritvik Mahajan
   degrees: 
-  degree1: MS, Robotics, University of Pennsylvania, 2019 - 2021
-  degree2: BS, Mechanical Engineering, The University of Texas at Austin, 2015 - 2019
-  website: https://www.linkedin.com/in/rahul-zahroof
+  degree1: BTech, Electrical Engineering, Indian Institute of Technology, Roorkee, 2020 - 
+  # website: https://www.linkedin.com/in/ritvikmahajan01/
 
 
-- name: Gaurav Kuppa
-  degrees: 
-  degree1: MS, Robotics, University of Pennsylvania, 2021 - 
-  degree2: BS, Computer Engineering at San Jose State University, 2017 - 2020
-  website: https://gauravkuppa.github.io/
+# - name: Rahul Zahroof
+#   degrees: 
+#   degree1: MS, Robotics, University of Pennsylvania, 2019 - 2021
+#   degree2: BS, Mechanical Engineering, The University of Texas at Austin, 2015 - 2019
+#   website: https://www.linkedin.com/in/rahul-zahroof
 
-- name: Harsh Goel
-  degrees: 
-  degree1: MS, Robotics, University of Pennsylvania, 2021 - 
-  degree2: BS, Mechanical Engineering, National University of Singapore, 2016 - 2020
-  website: https://www.linkedin.com/in/harshgoel57199/
+# - name: Gaurav Kuppa
+#   degrees: 
+#   degree1: MS, Robotics, University of Pennsylvania, 2021 - 
+#   degree2: BS, Computer Engineering at San Jose State University, 2017 - 2020
+#   website: https://gauravkuppa.github.io/
+
+# - name: Harsh Goel
+#   degrees: 
+#   degree1: MS, Robotics, University of Pennsylvania, 2021 - 
+#   degree2: BS, Mechanical Engineering, National University of Singapore, 2016 - 2020
+#   website: https://www.linkedin.com/in/harshgoel57199/
