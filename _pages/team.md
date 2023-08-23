@@ -101,7 +101,7 @@ nav_order: 3
 {% endfor %}
 
 
-## Students working with us
+## Alumni
 {% for alum in site.data.omembers %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
@@ -109,11 +109,9 @@ nav_order: 3
   <strong>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</strong> <br>
   {{alum.degree1}}<br>
   {{alum.degree2}}<br>
-  {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">@{{alum.name}}</a>  {% endif %}
+  {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">@{{alum.name}}</a> <br>  {% endif %} 
+  {% if alum.linkedin %} <i class="fab fa-linkedin"></i> <a href= "https://www.linkedin.com/in/{{alum.linkedin}}" target="_blank"> @{{alum.name}} </a> <br> {% endif %}
 
-  {% if alum.linkedin %}
-    <i class="fab fa-linkedin"></i> <a href= "https://www.linkedin.com/in/{{alum.linkedin}}" target="_blank">@{{alum.name}} </a> <br>
-  {% endif %}
 
   {% for paper in site.data.publications %}
   {% if paper.authors contains alum.pubmed_name %}

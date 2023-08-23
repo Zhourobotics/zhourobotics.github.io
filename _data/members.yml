@@ -14,8 +14,8 @@
   image: peihan.jpg
   altimage:
   email: pl525@drexel.edu
-  linkedin: peihan-carl-li-980033178
-  scholar: 
+  # linkedin: peihan-carl-li-980033178
+  scholar: Qg7-Gr0AAAAJ&hl=en
   twitter: 
   position: Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> MS, Mechanical Engineering, University of Pennsylvania, 2020 - 2022 <br/> BS, Mechanical Engineering, Penn State University, 2016 - 2020
   description:
@@ -106,32 +106,21 @@
   description: 
   description1:          
 
-- name: Urvish Bharti 
-  degrees: MS Student
-  image: Urvish.png
-  altimage:
-  position:  Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> BE, Mechatronics, NMIMS, 2017 - 2021 <br/> BE Minor, Robotics and IoT, NMIMS, 2019 - 2021 
-  linkedin: urvish-bharti-092b5b18b
-  email: ub48@drexel.edu
-  website:
-  scholar: 
-  twitter:
-  description: 
-  description1:
-
+# - name: Urvish Bharti 
+#   degrees: MS Student
+#   image: Urvish.png
+#   altimage:
+#   position:  Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> BE, Mechatronics, NMIMS, 2017 - 2021 <br/> BE Minor, Robotics and IoT, NMIMS, 2019 - 2021 
+#   linkedin: urvish-bharti-092b5b18b
+#   email: ub48@drexel.edu
+#   website:
+#   scholar: 
+#   twitter:
+#   description: 
+#   description1:
    
 
-- name: Adeeb Abbas
-  degrees: BS Student
-  image: Adeeb.png
-  altimage:
-  position: Computer Engineering, Drexel University, 2018 - 
-  linkedin: adeeb10abbas
-  email: aa4239@drexel.edu
-  website:
-  scholar: 
-  twitter: 
-  description: 
+
 
 - name: BrendanEGarwood
   degrees: BE Student
@@ -173,9 +162,21 @@
   degrees: BS Student
   image: Muhammad.jpg
   altimage:
-  position: Economics & Mathematics, Drexel University, 2020 - 
-  linkedin: muhammad-abdullah-339873213
+  position: Computer Science, Drexel University, 2022 - 
+  linkedin: muhammad07
   email: ma3936@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: 
+
+- name: Ritvik Mahajan
+  degrees: BTech Student
+  image: ritvikmahajan.jpg
+  altimage:
+  position: Electrical Engineering, Indian Institute of Technology, Roorkee, 2020 - 
+  linkedin: ritvikmahajan01
+  email: ritvik_m@ee.iitr.ac.in
   website:
   scholar: 
   twitter: 
