@@ -63,7 +63,7 @@ social: true  # includes social icons at the bottom of the page
     <div class="col-md-12">
         <span style="display: block; margin-bottom: 1em"></span>
         <h4> About </h4>
-        The Drexel Zhou Lab develops algorithms to advance the robustness, reliability, and scalability of robotics and multi-robot systems. Our research integrates robotics, algorithm design, and foundation models, and is driven by real-world challenges in environmental exploration, search and rescue, precision agriculture, urban mobility and robotic manipulation. 
+        The Drexel Zhou Lab aims to advance the robustness, reliability, and scalability of robotics and multi-robot systems. Our research integrates robotics and foundation models, and is driven by real-world challenges in environmental monitoring, disaster response, precision agriculture, urban mobility, and robotic manipulation. 
     </div>
 </div>
 
