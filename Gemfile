@@ -22,6 +22,8 @@ group :jekyll_plugins do
     # gem 'mini_racer'
     gem 'unicode_utils', '~> 1.4.0'
     gem 'webrick', '~> 1.9.1'
+    # Pin open-uri to avoid uri gem conflict
+    gem 'open-uri', '0.4.0'
 end
 
 group :other_plugins do
