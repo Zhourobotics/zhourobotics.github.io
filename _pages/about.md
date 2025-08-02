@@ -60,54 +60,83 @@ social: true  # includes social icons at the bottom of the page
 
 
 <div class="row">
-    <div class="col-md-6">
-        <span style="display: block; margin-bottom: 0.6em"></span>
-       
+    <div class="col-md-12">
+        <span style="display: block; margin-bottom: 1em"></span>
         <h4> About </h4>
-        The Drexel Zhou Lab develops algorithms to enable security, reliability, and long-term autonomy for multi-robot systems. Our research draws from robotics, algorithms, game theory, and machine learning and is motivated by real-world applications to environmental monitoring, surveillance, reconnaissance, search and rescue, and urban mobility. 
+        The Drexel Zhou Lab develops algorithms to advance the robustness, reliability, and scalability of robotics and multi-robot systems. Our research integrates robotics, algorithm design, and foundation models, and is driven by real-world challenges in environmental exploration, search and rescue, precision agriculture, urban mobility and robotic manipulation. 
+    </div>
+</div>
 
+<div class="row">
+    <div class="col-md-12">
+        <span style="display: block; margin-bottom: 1em"></span>
+        <h4> News </h4>
+        <div class="table-responsive">
+            <table class="table table-sm table-borderless">
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em">June 15, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://arxiv.org/pdf/2409.11230">resilient multi-robot tracking</a> has been accepted to IROS 2025! 
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em">May 6, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://ieeexplore.ieee.org/abstract/document/10989573">game-theoretic robot allocation</a> has been accepted to TRO! 
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em">April 14, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://openaccess.thecvf.com/content/CVPR2025W/WDFM-AD/html/Chahe_ReasonDrive_Efficient_Visual_Question_Answering_for_Autonomous_Vehicles_with_Reasoning-Enhanced_CVPRW_2025_paper.html">Finetuning chain-of-thought of small vision-language models for autonomous driving</a> has been accepted to <a href = "https://wdfm-ad.github.io/">CVPR 2025 WDFM-AD Workshop</a>! 
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em">June 15, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://openaccess.thecvf.com/content/WACV2025W/LLVMAD/html/Chahe_Query3D_LLM-Powered_Open-Vocabulary_Scene_Segmentation_with_Language_Embedded_3D_Gaussians_WACVW_2025_paper.html">LLM-powered open-vocabulary scene segmentation with language embedded 3D Gaussians</a> won the <strong>Best Paper Award</strong> at the  <a href = "https://llvm-ad.github.io/WACV_2025/">WACV 2025 LLVM-AD Workshop</a>! 🎉
+                    </td>
+                </tr>                
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
         <span style="display: block; margin-bottom: 0.5em"></span>
-        The lab is affiliated with the <a href= "https://drexel.edu/engineering/academics/departments/electrical-computer-engineering/"> Electrical and Computer Engineering </a> at <a href= "https://drexel.edu/">Drexel University</a>.
-
-<!--         <span style="display: block; margin-bottom: 0.5em"></span>
-        See more about our research <a href= "https://zhourobotics.github.io/research/">here</a>. -->        
-
-        <span style="display: block; margin-bottom: 1.5em"></span>
-        <h4> Projects </h4>
-
+        <h4> Sponsors </h4>
+        <span style="display: block; margin-bottom: 1em"></span>
         <div class="row">
-        <div class="col-md-6">
-          {% include figure.html path="assets/img/dcist.png" title="example image" class="img-fluid rounded z-depth-1" %}
-          <div class="caption">
-           <a href= "https://www.dcist.org/">ARL CRA DCIST</a>: Resilient and safe target tracking with heterogeneous multi-robot teams. 
-          </div>    
-        </div>     
-
+            <div class="col-md-5">
+                {% include figure.html path="assets/img/arl.jpg" title="example image" class="img-fluid rounded z-depth-1" width="92%" %}
+                <!-- <div class="caption">
+                    <a href= "https://www.dcist.org/">ARL CRA DCIST</a>: Resilient and safe target tracking with heterogeneous multi-robot teams. 
+                </div>     -->
+            </div>
+            <div class="col-md-4">
+                {% include figure.html path="assets/img/faa.png" title="example image" class="img-fluid rounded z-depth-1" width="85%" %}
+            </div>
+            <div class="col-md-3">
+                {% include figure.html path="assets/img/harmoni.png" title="example image" class="img-fluid rounded z-depth-1" width="43%" %}
+            </div>     
+        </div>
+    </div>
 </div>
 
-    </div>
-
-    <div class="col-md-6">
-        <a class="twitter-timeline" href="https://twitter.com/lfzhou917" data-widget-id="695051708246941697">Tweets by @lfzhou917</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-</div>
-
+<span style="display: block; margin-bottom: 0.5em"></span>
 
 <div class='container'>
     <header class="masthead text-center">
-
-      <span style="display: block; margin-bottom: 3em"></span>
+      <span style="display: block; margin-bottom: 2em"></span>
+      <i class="fab fa-youtube"></i> <a href= "https://www.youtube.com/channel/UCPw3Yjm2b7bioxqOJbdVrEA" target="_blank"> ZhouLab </a> &nbsp;&nbsp;&nbsp;
+      <i class="fab fa-linkedin"></i> <a href= "https://www.linkedin.com/in/lifeng-zhou-18135aa6/" target="_blank"> Lifeng Zhou </a> &nbsp;&nbsp;&nbsp;
       <i class="fab fa-twitter"></i> <a href= "http://twitter.com/lfzhou917" target="_blank"> lfzhou917 </a> &nbsp;&nbsp;&nbsp;
-      <i class="fab fa-github"></i> <a href= "https://github.com/Zhourobotics" target="_blank"> ZhouLab </a> &nbsp;&nbsp;&nbsp;
-      <i class="fab fa-youtube"></i> <a href= "https://www.youtube.com/channel/UCPw3Yjm2b7bioxqOJbdVrEA" target="_blank"> ZhouLab </a>
-      <!-- <i class="fa fa-envelope"></i> lz457@drexel.edu <br> -->
-      <!-- <i class="fa fa-envelope"></i> <a href="mailto:lz457@drexel.edu" target="_blank"> lz457@drexel.edu </a> --> <br>
+      <i class="fab fa-github"></i> <a href= "https://github.com/Zhourobotics" target="_blank"> ZhouLab </a>
+      <br>
 
-      <!-- <span style="display: block; margin-bottom: 3em"></span> -->
-      Department of Electrical and Computer Engineering at Drexel University<br>
+      <a href= "https://drexel.edu/engineering/academics/departments/electrical-computer-engineering/"> Department of Electrical and Computer Engineering </a> at <a href= "https://drexel.edu/">Drexel University</a><br>
       506 Bossone Research Building, 3120 Market Street, Philadelphia, PA 19104
       <span style="display: block; margin-bottom: 3em"></span>
-
     </header>
 </div>
