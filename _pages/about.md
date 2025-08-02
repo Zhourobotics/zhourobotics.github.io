@@ -92,7 +92,7 @@ social: true  # includes social icons at the bottom of the page
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em">June 15, 2025</th>
+                    <th scope="row" style="padding-top: 0.1em">Mar 15, 2025</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper on <a href="https://openaccess.thecvf.com/content/WACV2025W/LLVMAD/html/Chahe_Query3D_LLM-Powered_Open-Vocabulary_Scene_Segmentation_with_Language_Embedded_3D_Gaussians_WACVW_2025_paper.html">LLM-powered open-vocabulary scene segmentation with language embedded 3D Gaussians</a> won the <strong>Best Paper Award</strong> at the  <a href = "https://llvm-ad.github.io/WACV_2025/">WACV 2025 LLVM-AD Workshop</a>! 🎉
                     </td>
@@ -128,7 +128,7 @@ social: true  # includes social icons at the bottom of the page
 
 <div class='container'>
     <header class="masthead text-center">
-      <span style="display: block; margin-bottom: 2em"></span>
+      <span style="display: block; margin-bottom: 4em"></span>
       <i class="fab fa-youtube"></i> <a href= "https://www.youtube.com/channel/UCPw3Yjm2b7bioxqOJbdVrEA" target="_blank"> ZhouLab </a> &nbsp;&nbsp;&nbsp;
       <i class="fab fa-linkedin"></i> <a href= "https://www.linkedin.com/in/lifeng-zhou-18135aa6/" target="_blank"> Lifeng Zhou </a> &nbsp;&nbsp;&nbsp;
       <i class="fab fa-twitter"></i> <a href= "http://twitter.com/lfzhou917" target="_blank"> lfzhou917 </a> &nbsp;&nbsp;&nbsp;
