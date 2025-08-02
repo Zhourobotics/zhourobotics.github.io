@@ -6,128 +6,186 @@ nav: true
 nav_order: 3
 ---
 
-{% for person in site.data.members %}
+## Faculty
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-left: 10px">
-    <img class="img-fluid" style="float: left; width: auto; padding-left: 5px; padding-right: 20px; min-width: 100px; max-height: 185px; padding-bottom: 10px" src="{{ person.image | prepend: '/assets/img/people/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
-    <div>
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4>
-        {{person.position | markdownify}}
-        <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-        {% if person.website %}
-          <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank"> @{{person.name}}</a> <br>
-        {% endif %}        
-        {% if person.twitter %}
-          <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
-        {% endif %}
-        {% if person.linkedin %}
-          <i class="fab fa-linkedin"></i> <a href= "https://www.linkedin.com/in/{{person.linkedin}}" target="_blank"> @{{person.name}} </a> <br>
-        {% endif %}
-        {% if person.github %}
-          <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
-        {% endif %}
-        {% if person.scholar %}
-          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
-        {% endif %}
-        {% if person.orcid %}
-          <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
-        {% endif %} <br>
-        {{person.description}}
-        {{person.description1| markdownify}}
+<div class="row">
+{% for person in site.data.faculty %}
+<div class="col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 20px;">
+    <div class="text-center">
+        <img class="img-fluid rounded" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 10px;" src="{{ person.image | prepend: '/assets/img/people/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        <h5 style="margin-bottom: 3px;">
+            {% if person.google_scholar %}
+            <strong><a href="{{person.google_scholar}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.website %}
+            <strong><a href="{{person.website}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.linkedin %}
+            <strong><a href="https://www.linkedin.com/in/{{person.linkedin}}" target="_blank">{{person.name}}</a></strong>
+            {% else %}
+            <strong>{{person.name}}</strong>
+            {% endif %}
+        </h5>
+        <p style="font-size: 0.9em; color: #666;">Assistant Professor</p>
+        <!-- {% if person.email %}
+        <small><i class="fa fa-envelope"></i> {{person.email}}</small>
+        {% endif %} -->
     </div>
-<!--     <div class="col-sm-8">
-        <p class="text-justify">{{person.description | markdownify}}</p>
-    </div> -->
 </div>
-<hr>
 {% endfor %}
-
-
-{% if site.data.affiliates %}
-  <h2>affiliate members</h2>
-  {% for person in site.data.affiliates %}
-<div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
-    <div>
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4>
-        {{person.position}} <br>
-        <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-        {% if person.twitter %}
-          <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
-        {% endif %}
-        {% if person.website %}
-          <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
-        {% endif %}
-        {% if person.github %}
-          <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
-        {% endif %}
-        {% if person.scholar %}
-          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
-        {% endif %}
-        {% if person.orcid %}
-          <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
-        {% endif %}
-
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify">{{person.description | markdownify}}</p>
-    </div>
-</div>
-<hr>
-  {% endfor %}
-{% endif %}
-
-
-<!-- ## students -->
-{% for student in site.data.students %}
-
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-  <strong>{{student.name}}{% if student.degrees %}, {{student.degrees}} {% endif %}</strong> <br>
-  {{student.position}} <br>
-  <i class="fa fa-envelope"></i> <em>{{student.email}}</em> <br>
-  {% if student.description %}
-  <div style="margin-left: 2.5em; padding-top: 8px; padding-bottom: 5px; ">{{student.description}}</div>
-  {% else %}
-  {% for paper in site.data.publications %}
-  {% if paper.authors contains student.pubmed_name %}
-  <div style="margin-left: 2.5em; padding-top: 8px; padding-bottom: 5px; ">{{paper.authors | remove: '**'}} <a href="/papers/index.html#{{paper.title}}">{{paper.title}}</a> {{paper.details}}</div>
-  {% endif %}
-  {% endfor %}
-  {% endif %}
 </div>
 
+## PhD Students
+
+<div class="row">
+{% for person in site.data.phd_students %}
+<div class="col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 20px;">
+    <div class="text-center">
+        <img class="img-fluid rounded" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 10px;" src="{{ person.image | prepend: '/assets/img/people/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        <h5 style="margin-bottom: 3px;">
+            {% if person.google_scholar %}
+            <strong><a href="{{person.google_scholar}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.website %}
+            <strong><a href="{{person.website}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.linkedin %}
+            <strong><a href="https://www.linkedin.com/in/{{person.linkedin}}" target="_blank">{{person.name}}</a></strong>
+            {% else %}
+            <strong>{{person.name}}</strong>
+            {% endif %}
+        </h5>
+        {% if person.position contains 'Co-advised' %}
+            {% if person.position contains 'Electrical and Computer Engineering' %}
+            <p style="font-size: 0.9em; color: #666; margin-bottom: 2px;">ECE ({{person.position | split: '<br/>' | slice: 1, 1 | first | split: 'Drexel University,' | last | strip }} - )</p>
+            <p style="font-size: 0.8em; color: #888; margin-top: 0; margin-bottom: 0;">{{person.position | split: '<br/>' | first | strip }}</p>
+            {% elsif person.position contains 'Computer Science' %}
+            <p style="font-size: 0.9em; color: #666; margin-bottom: 2px;">CS ({{person.position | split: '<br/>' | slice: 1, 1 | first | split: 'Drexel University,' | last | strip }} - )</p>
+            <p style="font-size: 0.8em; color: #888; margin-top: 0; margin-bottom: 0;">{{person.position | split: '<br/>' | first | strip }}</p>
+            {% endif %}
+        {% elsif person.position contains 'Electrical and Computer Engineering' %}
+        <p style="font-size: 0.9em; color: #666;">ECE ({{person.position | split: '<br/>' | first | split: 'Drexel University,' | last | strip }} - )</p>
+        {% elsif person.position contains 'Computer Science' %}
+        <p style="font-size: 0.9em; color: #666;">CS ({{person.position | split: '<br/>' | first | split: 'Drexel University,' | last | strip }} - )</p>
+        {% else %}
+        <p style="font-size: 0.9em; color: #666;">{{person.position | split: ',' | first | strip_html | truncate: 30}}</p>
+        {% endif %}
+        <!-- {% if person.email %}
+        <small><i class="fa fa-envelope"></i> {{person.email}}</small>
+        {% endif %} -->
+    </div>
+</div>
 {% endfor %}
+</div>
 
+## Masters and Undergraduates
+
+<div class="row">
+{% for person in site.data.masters_undergraduates %}
+<div class="col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 20px;">
+    <div class="text-center">
+        <img class="img-fluid rounded" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 10px;" src="{{ person.image | prepend: '/assets/img/people/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        <h5 style="margin-bottom: 3px;">
+            {% if person.google_scholar %}
+            <strong><a href="{{person.google_scholar}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.website %}
+            <strong><a href="{{person.website}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.linkedin %}
+            <strong><a href="https://www.linkedin.com/in/{{person.linkedin}}" target="_blank">{{person.name}}</a></strong>
+            {% else %}
+            <strong>{{person.name}}</strong>
+            {% endif %}
+        </h5>
+        {% if person.degrees contains 'MS Student' %}
+            {% if person.position contains 'Electrical and Computer Engineering' %}
+            <p style="font-size: 0.9em; color: #666;">MS (ECE)</p>
+            {% elsif person.position contains 'Computer Science' %}
+            <p style="font-size: 0.9em; color: #666;">MS (CS)</p>
+            {% elsif person.position contains 'Mechanical Engineering' %}
+            <p style="font-size: 0.9em; color: #666;">MS (ME)</p>
+            {% elsif person.position contains 'Robotics' %}
+            <p style="font-size: 0.9em; color: #666;">MS (Robotics)</p>
+            {% else %}
+            <p style="font-size: 0.9em; color: #666;">MS</p>
+            {% endif %}
+        {% elsif person.degrees contains 'BE Student' or person.degrees contains 'BS Student' or person.degrees contains 'BTech Student' %}
+            {% if person.name contains 'Satoru Eto' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (CD)</p>
+            {% elsif person.name contains 'Logan Voravong' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (CS & Math)</p>
+            {% elsif person.position contains 'Electrical and Computer Engineering' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (ECE)</p>
+            {% elsif person.position contains 'Computer Science' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (CS)</p>
+            {% elsif person.position contains 'Mechanical Engineering' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (ME)</p>
+            {% elsif person.position contains 'Robotics' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (Robotics)</p>
+            {% else %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad</p>
+            {% endif %}
+        {% else %}
+        <p style="font-size: 0.9em; color: #666;">{{person.position | split: ',' | first | strip_html | truncate: 30}}</p>
+        {% endif %}
+        <!-- {% if person.email %}
+        <small><i class="fa fa-envelope"></i> {{person.email}}</small>
+        {% endif %} -->
+    </div>
+</div>
+{% endfor %}
+</div>
+
+## Visiting Students
+
+<div class="row">
+{% for person in site.data.visiting_students %}
+<div class="col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 20px;">
+    <div class="text-center">
+        <img class="img-fluid rounded" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 10px;" src="{{ person.image | prepend: '/assets/img/people/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        <h5 style="margin-bottom: 3px;">
+            {% if person.google_scholar %}
+            <strong><a href="{{person.google_scholar}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.website %}
+            <strong><a href="{{person.website}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.linkedin %}
+            <strong><a href="https://www.linkedin.com/in/{{person.linkedin}}" target="_blank">{{person.name}}</a></strong>
+            {% else %}
+            <strong>{{person.name}}</strong>
+            {% endif %}
+        </h5>
+        {% if person.degrees contains 'Undergraduate Student' %}
+            {% if person.name contains 'Katherine Song' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (EE, Northwestern)</p>
+            {% elsif person.name contains 'Ava Bowman' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (Math, Wesleyan)</p>
+            {% else %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (CE, UMich)</p>
+            {% endif %}
+        {% else %}
+        <p style="font-size: 0.9em; color: #666;">{{person.position | strip_html | truncate: 30}}</p>
+        {% endif %}
+        <!-- {% if person.email %}
+        <small><i class="fa fa-envelope"></i> {{person.email}}</small>
+        {% endif %} -->
+    </div>
+</div>
+{% endfor %}
+</div>
 
 ## Alumni
-{% for alum in site.data.omembers %}
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<!-- <div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;"> -->
-  <strong>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</strong> <br>
-  {{alum.degree1}}<br>
-  {{alum.degree2}}<br>
-  {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">@{{alum.name}}</a> <br>  {% endif %} 
-  {% if alum.linkedin %} <i class="fab fa-linkedin"></i> <a href= "https://www.linkedin.com/in/{{alum.linkedin}}" target="_blank"> @{{alum.name}} </a> <br> {% endif %}
-
-
-  {% for paper in site.data.publications %}
-  {% if paper.authors contains alum.pubmed_name %}
-  <div style="margin-left: 2.5em; padding-top: 8px; padding-bottom: 5px; ">{{paper.authors | remove: '**'}} <a href="/papers/index.html#{{paper.title | replace: ' ', '-' |  remove: '.'}}">{{paper.title}}</a> {{paper.details}}</div>
-  {% endif %}
-  {% endfor %}
-<!-- </div> -->
+{% for alum in site.data.alumni %}
+<p style="margin-bottom: 8px;">
+    {% if alum.website %}
+    <strong><a href="{{alum.website}}" target="_blank">{{alum.name}}</a></strong>
+    {% elsif alum.linkedin %}
+    <strong><a href="https://www.linkedin.com/in/{{alum.linkedin}}" target="_blank">{{alum.name}}</a></strong>
+    {% else %}
+    <strong>{{alum.name}}</strong>
+    {% endif %}
+    {% if alum.previously and alum.now %}
+    ({{alum.previously | strip_html | truncate: 40}}, Next: {{alum.now | strip_html | truncate: 40}})
+    {% elsif alum.previously %}
+    ({{alum.previously | strip_html | truncate: 40}})
+    {% elsif alum.now %}
+    (Next: {{alum.now | strip_html | truncate: 40}})
+    {% endif %}
+</p>
 {% endfor %}
-
-<!-- --- -->
-
-<!-- ## collaborators -->
-
-<!-- {% for collaborator in site.data.collaborators %}
-- <strong>{{collaborator.name}}{% if collaborator.degrees %}, {{collaborator.degrees}} {% endif %}</strong>
-  {{collaborator.position}}
-  {% if collaborator.website %} <i class="fa fa-globe"></i> <a href= "{{collaborator.website}}" target="_blank">{{collaborator.website}}</a>  {% endif %}
-{% endfor %} -->
 

@@ -1,0 +1,41 @@
+# Visiting Students
+# Add visiting students here when needed 
+
+- name: Shaun Gupte
+  degrees: Undergraduate Student
+  image: Shaun.jpeg
+  altimage:
+  position: Computer Engineering, University of Michigan
+  email: 
+  website: 
+  linkedin: shaun-gupte
+  scholar: 
+  twitter:
+  description: 
+  description1:
+
+- name: Katherine Song
+  degrees: Undergraduate Student
+  image: Katie.jpeg
+  altimage:
+  position: Electrical Engineering, Northwestern University
+  email: 
+  website: 
+  linkedin: katherine-song-nu
+  scholar: 
+  twitter:
+  description: 
+  description1:
+
+- name: Ava Bowman
+  degrees: Undergraduate Student
+  image: Ava.jpeg
+  altimage:
+  position: Mathematics, Wesleyan University
+  email: 
+  website: 
+  linkedin: 
+  scholar: 
+  twitter:
+  description: 
+  description1:

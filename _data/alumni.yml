@@ -1,120 +1,44 @@
-- name: Caitlin Winkler
-  degrees: PhD
-  previously: RBI Informatics Fellow (joint with [Section of Developmental Biology](https://medschool.cuanschutz.edu/pediatrics/sections/developmental-biology/faculty){:target="_blank"})
-  now: Bridge Informatics
-  website: https://github.com/oligomyeggo
- 
-
-- name: Rui Fu
-  degrees: PhD
-  previously: RBI Informatics Fellow 
-  now: Bioinformatics Scientist, New York Genome Center
-  website: https://github.com/raysinensis
-  scholar: 5K4soB0AAAAJ
-
-- name: Rachel Ancar
-  degrees: PhD
-  previously: Graduate Student (MSTP, MOLB)
-  now: Medical Student, University of Colorado School of Medicine 
+- name: Abe Jeyapratap
+  degrees: 
+  previously: Undergrad Student at Drexel
+  now: SDE at Amazon Robotics
   email:
   website:
-  
-- name: Mandy Richer 
-  degrees: PhD
-  previously: Graduate Student (BSP, MOLB)
-  now: Research Scientist, Hesselberth lab 
+  linkedin:
+  scholar:
+
+- name: Bhavana Gudiguntla
+  degrees: 
+  previously: Master Student at Drexel
+  now: Engineer at Baltimore Gas and Electric
   email:
   website:
-  
-- name: Patrick Cherry
-  degrees: PhD
-  previously: Graduate Student (MOLB)
-  now: Scientist, Twist Bioscience
-  email:
-  website: https://www.linkedin.com/in/p-cherry/
-  
-- name: Sally Peach
-  degrees: MD, PhD
-  previously: Graduate Student (MSTP, MOLB)
-  now: Pediatrics Resident, Seattle Children's Hospital 
-  email:
-  website: https://www.linkedin.com/in/sallypeach/
+  linkedin:
+  scholar:
 
-- name: Suzi Bryan
-  degrees: PhD
-  previously: Graduate Student (BSP, MOLB)
-  now: Scientist, Illumina 
-  email:
-  website: https://www.linkedin.com/in/suzibryan/ 
-  
-- name: Shannon Walsh
-  degrees: PhD
-  previously: Postdoctoral Fellow
-  now: Assistant Professor, Michigan State 
-  email:
-  website: https://bmb.natsci.msu.edu/teaching-faculty/shannon-walsh/ 
-  
-- name: Monica Ransom
-  degrees: PhD
-  previously: Postdoctoral Fellow
-  now: Instructor, UC Genomics Core 
-  email:
-  website: https://medschool.cuanschutz.edu/colorado-cancer-center/research/shared-resources/genomics
-
-- name: Austin Gillen
-  degrees: PhD
-  previously: Postdoctoral Fellow
-  now: Assistant Research Professor, Hematology, CU Anschutz
-  email:
-  website: https://som.ucdenver.edu/Profiles/Faculty/Profile/25627
-
-- name: Stephen Garrey
-  degrees: PhD
-  previously: Postdoctoral Fellow
-  now:
+- name: Brendan Garwood
+  degrees: 
+  previously: Undergrad Student at Drexel
+  now: Satellite Engineer at AFRL
   email:
   website:
+  linkedin:
+  scholar:
 
-- name: Sidhant Puntambekar
+- name: Adeeb Abbas
   degrees: 
-  previously: RBISIP summer intern
-  now:
-  email:
-  website: https://www.linkedin.com/in/sidhant-puntambekar/
-
-- name: Haven Himmighoefer
-  degrees: 
-  previously: Undergraduate researcher 
-  now:
+  previously: Undergrad Student at Drexel
+  now: PhD Student at Northeastern
   email:
   website:
+  linkedin:
+  scholar:
 
-- name: Lakotah Hardie
+- name: Jiazhen Liu
   degrees: 
-  previously:
-  now:
-  email:
-  website: https://scholar.google.com/citations?user=xjtlmWcAAAAJ&hl=en
-
-- name: Leslie Aranda
-  degrees: 
-  previously: GEMS summer intern
-  now:
+  previously: Master Student at Penn
+  now: PhD Student at Georgia Tech
   email:
   website:
-
-- name: Monty Prekeris
-  degrees: 
-  previously: PRA
-  now:
-  email:
-  website: https://www.linkedin.com/in/prekeris/
-
-- name: Kerri York
-  degrees: 
-  previously: PRA
-  now:
-  email:
-  website: https://www.linkedin.com/in/kerriyork/
-
-
+  linkedin:
+  scholar:

@@ -1,0 +1,74 @@
+- name: Peihan Li
+  degrees: PhD Student
+  image: peihan.jpg
+  altimage:
+  email: pl525@drexel.edu
+  scholar: Qg7-Gr0AAAAJ&hl=en
+  google_scholar: https://scholar.google.com/citations?user=Qg7-Gr0AAAAJ&hl=en
+  twitter: 
+  position: Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> MS, Mechanical Engineering, University of Pennsylvania, 2020 - 2022 <br/> BS, Mechanical Engineering, Penn State University, 2016 - 2020
+  description:
+  description1:
+
+- name: Amirhosein Chahe
+  degrees: PhD Student
+  image: amirhosein.jpg
+  altimage:
+  position: Electrical and Computer Engineering, Drexel University, Spring 2023 - <br/> BS, Mechanical Engineering, University of Tehran, 2017 - 2021 <br/> BS Minor, Management, University of Tehran, 2018 - 2021 
+  email: ac4462@drexel.edu
+  website: https://sites.google.com/view/amirhoseinchahe
+  scholar: MeK_1LUAAAAJ&hl=en
+  google_scholar: https://scholar.google.com/citations?user=MeK_1LUAAAAJ&hl=en
+  twitter:
+  description: 
+  description1:
+
+- name: Zijian An
+  degrees: PhD Student
+  image: Zijian.jpeg
+  altimage:
+  position:  Electrical and Computer Engineering, Drexel University, Fall 2023 - <br/> MS, Mechanical Engineering, University of Pennsylvania, 2021 - 2023 <br/> BS, Mechanical Engineering, Chongqing University, China, 2017 - 2021
+  email: anzijian@seas.upenn.edu  
+  website:
+  scholar: zOA9WhsAAAAJ&hl=en
+  google_scholar: https://scholar.google.com/citations?user=zOA9WhsAAAAJ&hl=en
+  description: 
+  description1:
+
+- name: Bill Cai
+  degrees: PhD Student
+  image: Bill.jpg
+  altimage:
+  position: Electrical and Computer Engineering, Drexel University, Fall 2023 - <br/> MEng, Electrical and Computer Engineering, Drexel University, Fall 2022 - <br/> BE, Electrical and Electronics Engineering, Drexel University, 2016 - 2021
+  linkedin: bill-cai
+  email: sc3568@drexel.edu
+  website:
+  scholar: 9OTtpc8AAAAJ&hl=en
+  google_scholar: https://scholar.google.com/citations?user=9OTtpc8AAAAJ&hl=en
+  twitter: 
+  description:
+
+- name: Kruthika Ravi
+  degrees: PhD Student
+  image: Kruthika.jpg
+  altimage:
+  position:  Co-advised with Dr. Emmanouil Pountourakis <br/> Computer Science, Drexel University, Fall 2023 - <br/> MEng, Mechanical Engineering, The University of Texas at Arlington, 2016 - 2017
+  linkedin: kruthikaravi
+  email: kr3254@drexel.edu
+  website:
+  scholar: 
+  twitter: 
+  description: 
+
+- name: Aref Ghoreishee
+  degrees: PhD Student
+  image: Aref.jpeg
+  altimage:
+  position: Co-advised with Dr. Nagarajan Kandasamy <br/> Electrical and Computer Engineering, Drexel University, Winter 2025 - 
+  email: 
+  website: 
+  scholar: 
+  google_scholar: https://scholar.google.com/citations?user=2t3zgUoAAAAJ&hl=en
+  twitter:
+  description: 
+  description1:
