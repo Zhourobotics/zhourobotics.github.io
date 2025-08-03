@@ -3,8 +3,8 @@ layout: page
 title: Risk-Aware Planning
 description: 
 img: assets/img/simple_mod_exp1.jpg
-importance: 2
-category: current
+importance: 6
+category: past
 ---
 
 ## Managing risk by stochastic submodular optimization

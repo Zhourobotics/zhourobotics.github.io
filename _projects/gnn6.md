@@ -3,8 +3,8 @@ layout: page
 title: Graph Neural Networks
 description: 
 img: assets/img/GNN.png
-importance: 6
-category: current
+importance: 2
+category: past
 ---
 
 ## Large-scale, decentralized multi-robot coordination through graph neural networks

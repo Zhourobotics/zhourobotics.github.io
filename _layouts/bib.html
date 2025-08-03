@@ -139,6 +139,13 @@
           </div>
         {%- endif %}
         
+          <!-- Note/Award -->
+          {%- if entry.note %}
+            <div class="note" style="margin-top: 5px; border-left: none !important; padding-left: 0 !important;">
+              <span style="background-color: #dc3545; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.75em; border: none; margin-left: 0 !important;">{{ entry.note }}</span>
+            </div>
+          {%- endif %}
+        
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -172,6 +179,9 @@
           {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+          {%- endif %}
+          {%- if entry.github %}
+            <a href="{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">GitHub</a>
           {%- endif %}
           {%- if entry.video %}
             <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>

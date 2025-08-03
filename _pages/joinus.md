@@ -6,12 +6,12 @@ nav: true
 nav_order: 5
 ---
 
-We look for talented and highly motivated students who have strong interests and backgrounds in robotics, algorithms, combinatorial optimization, game theory, and machine learning. 
+We look for talented and highly motivated students who have strong interests and backgrounds in robotics, algorithms, and foudntional models. 
 
 
 ## PhD students
 
-Prospective Ph.D. students are welcome from any number of areas including (but not necessarily limited to), multi-robot systems, robotics algorithms, machine learning, combinatorial optimization, game theory, motion planning, simultaneous localization and mapping (SLAM), and model predictive control. 
+Prospective Ph.D. students are welcome from any number of areas including (but not necessarily limited to), multi-robot systems, foundation models including large language models (LLMs), vision-language models (VLMs), and vision-language-action models (VLAs), robotics algorithms, motion planning, simultaneous localization and mapping (SLAM), and model predictive control. 
 
 If you are interested in joining the lab, you should apply to the [Drexel ECE PhD program](https://drexel.edu/academics/grad-professional-programs/engineering/electrical-engineering) and mention Dr. Zhou in your SoP. You are encouraged to contact Dr. Zhou via email with the title “Prospective PhD students” and include your CV and a short description of your academic background and research interests.
 

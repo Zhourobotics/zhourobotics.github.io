@@ -3,7 +3,7 @@ layout: page
 title: Resilient Coordination 
 description: 
 img: assets/img/resilient_drone.png
-importance: 1
+importance: 5
 category: current
 ---
 

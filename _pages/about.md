@@ -136,7 +136,7 @@ social: true  # includes social icons at the bottom of the page
       <br>
 
       <a href= "https://drexel.edu/engineering/academics/departments/electrical-computer-engineering/"> Department of Electrical and Computer Engineering </a> at <a href= "https://drexel.edu/">Drexel University</a><br>
-      506 Bossone Research Building, 3120 Market Street, Philadelphia, PA 19104
+      506 Bossone Research Building, 3140 Market Street, Philadelphia, PA 19104
       <span style="display: block; margin-bottom: 3em"></span>
     </header>
 </div>
