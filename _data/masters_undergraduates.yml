@@ -25,6 +25,17 @@
   description: 
   description1:
 
+- name: Justin Nguyen
+  degrees: BE Student
+  image: Nguyen.png
+  altimage:
+  position: Electrical and Computer Engineering, Drexel University
+  email: 
+  website: 
+  linkedin: 
+  scholar: 
+
+
 - name: Logan Voravong
   degrees: BS Student
   image: Logan.jpeg

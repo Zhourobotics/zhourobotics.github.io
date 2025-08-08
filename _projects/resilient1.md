@@ -4,10 +4,12 @@ title: Resilient Coordination
 description: 
 img: assets/img/resilient_drone.png
 importance: 5
-category: current
+category: past
 ---
 
 ## Countering attacks and failures through resilient coordination
+
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

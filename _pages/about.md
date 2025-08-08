@@ -35,17 +35,20 @@ social: true  # includes social icons at the bottom of the page
       <img class="d-block w-100" src="assets/img/labmempic.jpg">
     </div> 
     <div class="carousel-item ">
-      <img class="d-block w-100" src="assets/img/huskydrone.png">
-    </div>  
+      <img class="d-block w-100" src="assets/img/airground1.jpg">
+    </div>
     <div class="carousel-item ">
       <img class="d-block w-100" src="assets/img/modalaidrone.png">
     </div> 
+    <!-- <div class="carousel-item ">
+      <img class="d-block w-100" src="assets/img/huskydrone.png">
+    </div>   -->
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/autovehicle.jpeg">
+      <img class="d-block w-100" src="assets/img/autodrive.jpg">
     </div>
     <div class="carousel-item ">
-      <img class="d-block w-100" src="assets/img/robottargt.jpeg">
-    </div>
+      <img class="d-block w-100" src="assets/img/robotarm.jpg">
+    </div>  
 
 </div>
 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

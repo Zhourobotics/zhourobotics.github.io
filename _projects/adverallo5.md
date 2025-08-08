@@ -7,8 +7,6 @@ importance: 5
 category: past
 ---
 
-To be updated.
-
-[arXiv:2505.06319](https://arxiv.org/abs/2505.06319): Reinforcement Learning for Game-Theoretic Resource Allocation on Graphs.
+[Preprint](https://arxiv.org/abs/2505.06319): Reinforcement Learning for Game-Theoretic Resource Allocation on Graphs.
 
 [T-RO](https://ieeexplore.ieee.org/abstract/document/10989573): Double oracle algorithm for game-theoretic robot allocation on graphs.
