@@ -223,31 +223,31 @@ description:
     </div>
 
     <div class="speaker-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/M. Ani Hsieh.jpeg" alt="M. Ani Hsieh">
+      <div class="speaker-name"><a href="https://www.seas.upenn.edu/~m.hsieh/" target="_blank">M. Ani Hsieh</a></div>
+      <div class="speaker-affil">University of Pennsylvania</div>
+      <div class="speaker-title">TBD</div>
+    </div>
+
+    <div class="speaker-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/Javier Alonso-Mora.jpeg" alt="Javier Alonso-Mora">
+      <div class="speaker-name"><a href="https://www.autonomousrobots.nl/" target="_blank">Javier Alonso-Mora</a></div>
+      <div class="speaker-affil">TU Delft</div>
+      <div class="speaker-title">TBD</div>
+    </div>
+
+    <div class="speaker-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/Jiachen Li.jpeg" alt="Jiachen Li">
+      <div class="speaker-name"><a href="https://jiachenli94.github.io/" target="_blank">Jiachen Li</a></div>
+      <div class="speaker-affil">UC Riverside</div>
+      <div class="speaker-title">Toward Safe and Efficient Coordination for Cooperative Embodied Agents</div>
+    </div>
+
+    <div class="speaker-card">
       <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/Ameya Agaskar.jpeg" alt="Ameya Agaskar">
       <div class="speaker-name">Ameya Agaskar</div>
       <div class="speaker-affil">Amazon Robotics</div>
       <div class="speaker-title">DEEPFLEET: Multi-Agent Foundation Models for Mobile Robots</div>
-    </div>
-
-    <div class="speaker-card">
-      <div class="tbd-photo">?</div>
-      <div class="speaker-name">TBD</div>
-      <div class="speaker-affil">&nbsp;</div>
-      <span class="tbd-badge">Coming soon</span>
-    </div>
-
-    <div class="speaker-card">
-      <div class="tbd-photo">?</div>
-      <div class="speaker-name">TBD</div>
-      <div class="speaker-affil">&nbsp;</div>
-      <span class="tbd-badge">Coming soon</span>
-    </div>
-
-    <div class="speaker-card">
-      <div class="tbd-photo">?</div>
-      <div class="speaker-name">TBD</div>
-      <div class="speaker-affil">&nbsp;</div>
-      <span class="tbd-badge">Coming soon</span>
     </div>
 
   </div>
@@ -283,12 +283,12 @@ description:
       <tr>
         <td class="time-col">9:25 – 9:50</td>
         <td>Invited Talk 3</td>
-        <td><em>TBD</em></td>
+        <td><strong>M. Ani Hsieh</strong> (University of Pennsylvania)</td>
       </tr>
       <tr>
         <td class="time-col">9:50 – 10:15</td>
         <td>Invited Talk 4</td>
-        <td><em>TBD</em></td>
+        <td><strong>Javier Alonso-Mora</strong> (TU Delft)</td>
       </tr>
       <tr>
         <td class="time-col">10:15 – 10:30</td>
@@ -303,12 +303,12 @@ description:
       <tr>
         <td class="time-col">11:00 – 11:25</td>
         <td>Invited Talk 5</td>
-        <td><strong>Ameya Agaskar</strong> (Amazon Robotics) &mdash; DEEPFLEET: Multi-Agent Foundation Models for Mobile Robots</td>
+        <td><strong>Jiachen Li</strong> (UC Riverside) &mdash; Toward Safe and Efficient Coordination for Cooperative Embodied Agents</td>
       </tr>
       <tr>
         <td class="time-col">11:25 – 11:50</td>
         <td>Invited Talk 6</td>
-        <td><em>TBD</em></td>
+        <td><strong>Ameya Agaskar</strong> (Amazon Robotics) &mdash; DEEPFLEET: Multi-Agent Foundation Models for Mobile Robots</td>
       </tr>
       <tr>
         <td class="time-col">11:50 – 12:25</td>
@@ -368,6 +368,18 @@ description:
       <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Yiannis Kantaros.jpeg" alt="Yiannis Kantaros">
       <div class="org-name"><a href="https://engineering.washu.edu/faculty/Yiannis-Kantaros.html" target="_blank">Yiannis Kantaros</a></div>
       <div class="org-affil">Washington University in St. Louis</div>
+    </div>
+
+    <div class="organizer-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Alberto Quattrini Li.jpeg" alt="Alberto Quattrini Li">
+      <div class="org-name"><a href="https://rlab.cs.dartmouth.edu/albertoq/" target="_blank">Alberto Quattrini Li</a></div>
+      <div class="org-affil">Dartmouth College</div>
+    </div>
+
+    <div class="organizer-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Lorenzo Sabattini.jpeg" alt="Lorenzo Sabattini">
+      <div class="org-name"><a href="https://sites.google.com/view/lorenzosabattini" target="_blank">Lorenzo Sabattini</a></div>
+      <div class="org-affil">University of Modena and Reggio Emilia</div>
     </div>
 
     <div class="organizer-card">
