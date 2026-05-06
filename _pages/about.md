@@ -111,17 +111,25 @@ social: true  # includes social icons at the bottom of the page
         <h4> Sponsors </h4>
         <span style="display: block; margin-bottom: 1em"></span>
         <div class="row">
-            <div class="col-md-5">
-                {% include figure.html path="assets/img/arl.jpg" title="example image" class="img-fluid rounded z-depth-1" width="92%" %}
-                <!-- <div class="caption">
-                    <a href= "https://www.dcist.org/">ARL CRA DCIST</a>: Resilient and safe target tracking with heterogeneous multi-robot teams. 
-                </div>     -->
+            <div class="col-md-4" style="padding: 0 15px;">
+                <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                    <img src="/assets/img/arl.jpg" style="max-height: 100px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
+                </div>
             </div>
-            <div class="col-md-4">
-                {% include figure.html path="assets/img/faa.png" title="example image" class="img-fluid rounded z-depth-1" width="85%" %}
+            <div class="col-md-3" style="padding: 0 15px;">
+                <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                    <img src="/assets/img/usda_sare.png" style="max-height: 80px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
+                </div>
             </div>
-            <div class="col-md-3">
-                {% include figure.html path="assets/img/harmoni.png" title="example image" class="img-fluid rounded z-depth-1" width="43%" %}
+            <div class="col-md-3" style="padding: 0 15px;">
+                <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                    <img src="/assets/img/faa.png" style="max-height: 80px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
+                </div>
+            </div>
+            <div class="col-md-2" style="padding: 0 15px;">
+                <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                    <img src="/assets/img/harmoni.png" style="max-height: 60px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
+                </div>
             </div>     
         </div>
     </div>
