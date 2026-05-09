@@ -77,53 +77,53 @@ social: true  # includes social icons at the bottom of the page
         <div class="table-responsive">
             <table class="table table-sm table-borderless">
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em">May 2, 2026</th>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 2, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper titled <a href="https://arxiv.org/abs/2502.03814">"Large Language Models for Multi-Robot Systems: A Survey"</a> has been accepted to Autonomous Robots!
                     </td>
                 </tr>
                 <!-- <tr>
-                    <th scope="row" style="padding-top: 0.1em">May 1, 2026</th>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 1, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our project with Morgan State University has been funded by <a href="https://northeast.sare.org/">USDA SARE</a>!
                     </td>
                 </tr> -->
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em">April 6, 2026</th>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">April 6, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper titled <a href="https://arxiv.org/abs/2604.16436">"Fuzzy Encoding-Decoding to Improve Spiking Q-Learning Performance in Autonomous Driving"</a> has been accepted to NICE 2026!
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em">March 26, 2026</th>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">March 26, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper titled <a href="https://arxiv.org/abs/2603.25981">"Policy-Guided World Model Planning for Language-Conditioned Visual Navigation"</a> has been accepted to CVPR Workshops 2025!
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em">June 15, 2025</th>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">June 15, 2025</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper on <a href="https://arxiv.org/pdf/2409.11230">resilient multi-robot tracking</a> has been accepted to IROS 2025 and selected as a <strong>Best Paper Finalist</strong>! 
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em">May 6, 2025</th>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 6, 2025</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper on <a href="https://ieeexplore.ieee.org/abstract/document/10989573">game-theoretic robot allocation</a> has been accepted to TRO! 
                     </td>
                 </tr>
-                <tr>
-                    <th scope="row" style="padding-top: 0.1em">April 14, 2025</th>
+                <!-- <tr>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">April 14, 2025</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper on <a href="https://openaccess.thecvf.com/content/CVPR2025W/WDFM-AD/html/Chahe_ReasonDrive_Efficient_Visual_Question_Answering_for_Autonomous_Vehicles_with_Reasoning-Enhanced_CVPRW_2025_paper.html">Finetuning chain-of-thought of small vision-language models for autonomous driving</a> has been accepted to <a href = "https://wdfm-ad.github.io/">CVPR 2025 WDFM-AD Workshop</a>! 
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em">Mar 15, 2025</th>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">Mar 15, 2025</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper on <a href="https://openaccess.thecvf.com/content/WACV2025W/LLVMAD/html/Chahe_Query3D_LLM-Powered_Open-Vocabulary_Scene_Segmentation_with_Language_Embedded_3D_Gaussians_WACVW_2025_paper.html">LLM-powered open-vocabulary scene segmentation with language embedded 3D Gaussians</a> won the <strong>Best Paper Award</strong> at the  <a href = "https://llvm-ad.github.io/WACV_2025/">WACV 2025 LLVM-AD Workshop</a>! 🎉
                     </td>
-                </tr>                
+                </tr> -->                
             </table>
         </div>
     </div>
