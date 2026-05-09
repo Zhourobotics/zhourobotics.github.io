@@ -82,12 +82,12 @@ social: true  # includes social icons at the bottom of the page
                         Our paper titled <a href="https://arxiv.org/abs/2502.03814">"Large Language Models for Multi-Robot Systems: A Survey"</a> has been accepted to Autonomous Robots!
                     </td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <th scope="row" style="padding-top: 0.1em">May 1, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our project with Morgan State University has been funded by <a href="https://northeast.sare.org/">USDA SARE</a>!
                     </td>
-                </tr>
+                </tr> -->
                 <tr>
                     <th scope="row" style="padding-top: 0.1em">April 6, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
@@ -140,11 +140,11 @@ social: true  # includes social icons at the bottom of the page
                     <img src="/assets/img/arl.jpg" style="max-height: 100px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
                 </div>
             </div>
-            <div class="col-md-3" style="padding: 0 15px;">
+            <!-- <div class="col-md-3" style="padding: 0 15px;">
                 <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
                     <img src="/assets/img/usda_sare.png" style="max-height: 80px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
                 </div>
-            </div>
+            </div> -->
             <div class="col-md-3" style="padding: 0 15px;">
                 <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
                     <img src="/assets/img/faa.png" style="max-height: 80px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
