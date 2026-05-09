@@ -77,9 +77,33 @@ social: true  # includes social icons at the bottom of the page
         <div class="table-responsive">
             <table class="table table-sm table-borderless">
                 <tr>
+                    <th scope="row" style="padding-top: 0.1em">May 2, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper titled <a href="https://arxiv.org/abs/2502.03814">"Large Language Models for Multi-Robot Systems: A Survey"</a> has been accepted to Autonomous Robots!
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em">May 1, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our project with Morgan State University has been funded by <a href="https://northeast.sare.org/">USDA SARE</a>!
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em">April 6, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper titled <a href="https://arxiv.org/abs/2604.16436">"Fuzzy Encoding-Decoding to Improve Spiking Q-Learning Performance in Autonomous Driving"</a> has been accepted to NICE 2026!
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em">March 26, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper titled <a href="https://arxiv.org/abs/2603.25981">"Policy-Guided World Model Planning for Language-Conditioned Visual Navigation"</a> has been accepted to CVPR Workshops 2025!
+                    </td>
+                </tr>
+                <tr>
                     <th scope="row" style="padding-top: 0.1em">June 15, 2025</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Our paper on <a href="https://arxiv.org/pdf/2409.11230">resilient multi-robot tracking</a> has been accepted to IROS 2025! 
+                        Our paper on <a href="https://arxiv.org/pdf/2409.11230">resilient multi-robot tracking</a> has been accepted to IROS 2025 and selected as a <strong>Best Paper Finalist</strong>! 
                     </td>
                 </tr>
                 <tr>
