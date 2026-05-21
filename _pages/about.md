@@ -77,6 +77,12 @@ social: true  # includes social icons at the bottom of the page
         <div class="table-responsive">
             <table class="table table-sm table-borderless">
                 <tr>
+                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 21, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our <a href="/fm-mrs/">FM-MRS Workshop @ IROS 2026</a> has been accepted and is now online!
+                    </td>
+                </tr>
+                <tr>
                     <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 2, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper titled <a href="https://arxiv.org/abs/2502.03814">"Large Language Models for Multi-Robot Systems: A Survey"</a> has been accepted to Autonomous Robots!

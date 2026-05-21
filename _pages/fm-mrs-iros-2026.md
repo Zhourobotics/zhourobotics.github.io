@@ -2,7 +2,7 @@
 layout: page
 title: FM-MRS @ IROS 2026
 permalink: /fm-mrs/
-nav: false
+nav: true
 nav_order: 6
 description:
 ---
@@ -244,6 +244,13 @@ description:
     </div>
 
     <div class="speaker-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Lifeng Zhou.jpeg" alt="Lifeng Zhou">
+      <div class="speaker-name"><a href="https://lfzhou917.github.io/" target="_blank">Lifeng Zhou</a></div>
+      <div class="speaker-affil">Drexel University</div>
+      <div class="speaker-title">Large Language Models for Decentralized Multi-Robot Coordination</div>
+    </div>
+
+    <div class="speaker-card">
       <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/Ameya Agaskar.jpeg" alt="Ameya Agaskar">
       <div class="speaker-name">Ameya Agaskar</div>
       <div class="speaker-affil">Amazon Robotics</div>
@@ -271,29 +278,34 @@ description:
         <td>Workshop overview and introduction</td>
       </tr>
       <tr>
-        <td class="time-col">8:35 – 9:00</td>
+        <td class="time-col">8:35 – 8:55</td>
         <td>Invited Talk 1</td>
         <td><strong>Nicholas Roy</strong> (MIT) &mdash; Foundation Models and Symbol Grounding for Multirobot Systems</td>
       </tr>
       <tr>
-        <td class="time-col">9:00 – 9:25</td>
+        <td class="time-col">8:55 – 9:15</td>
         <td>Invited Talk 2</td>
         <td><strong>Chuchu Fan</strong> (MIT) &mdash; LLMs and VLMs Can Solve Real-World Planning Rigorously with Formal Reasoning Tools</td>
       </tr>
       <tr>
-        <td class="time-col">9:25 – 9:50</td>
+        <td class="time-col">9:15 – 9:35</td>
         <td>Invited Talk 3</td>
         <td><strong>M. Ani Hsieh</strong> (University of Pennsylvania)</td>
       </tr>
       <tr>
-        <td class="time-col">9:50 – 10:15</td>
+        <td class="time-col">9:35 – 9:55</td>
         <td>Invited Talk 4</td>
         <td><strong>Javier Alonso-Mora</strong> (TU Delft)</td>
       </tr>
       <tr>
+        <td class="time-col">9:55 – 10:15</td>
+        <td>Invited Talk 5</td>
+        <td><strong>Jiachen Li</strong> (UC Riverside) &mdash; Toward Safe and Efficient Coordination for Cooperative Embodied Agents</td>
+      </tr>
+      <tr>
         <td class="time-col">10:15 – 10:30</td>
         <td>Contributed Spotlight Talks</td>
-        <td>Lightning presentations from accepted submissions</td>
+        <td>Presentations from accepted submissions</td>
       </tr>
       <tr class="break-row">
         <td class="time-col">10:30 – 11:00</td>
@@ -301,17 +313,17 @@ description:
         <td>Poster presentations and networking</td>
       </tr>
       <tr>
-        <td class="time-col">11:00 – 11:25</td>
-        <td>Invited Talk 5</td>
-        <td><strong>Jiachen Li</strong> (UC Riverside) &mdash; Toward Safe and Efficient Coordination for Cooperative Embodied Agents</td>
+        <td class="time-col">11:00 – 11:20</td>
+        <td>Invited Talk 6</td>
+        <td><strong>Lifeng Zhou</strong> (Drexel University) &mdash; Large Language Models for Decentralized Multi-Robot Coordination</td>
       </tr>
       <tr>
-        <td class="time-col">11:25 – 11:50</td>
-        <td>Invited Talk 6</td>
+        <td class="time-col">11:20 – 11:40</td>
+        <td>Invited Talk 7</td>
         <td><strong>Ameya Agaskar</strong> (Amazon Robotics) &mdash; DEEPFLEET: Multi-Agent Foundation Models for Mobile Robots</td>
       </tr>
       <tr>
-        <td class="time-col">11:50 – 12:25</td>
+        <td class="time-col">11:40 – 12:25</td>
         <td>Panel Discussion</td>
         <td>Open Q&amp;A and discussion on future directions</td>
       </tr>
@@ -383,6 +395,12 @@ description:
     </div>
 
     <div class="organizer-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Pratap_Tokekar.jpeg" alt="Pratap Tokekar">
+      <div class="org-name"><a href="https://scholar.google.com/citations?user=FKAovywAAAAJ&hl=en" target="_blank">Pratap Tokekar</a></div>
+      <div class="org-affil">University of Maryland</div>
+    </div>
+
+    <div class="organizer-card">
       <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Byung-Cheol Min.jpeg" alt="Byung-Cheol Min">
       <div class="org-name"><a href="https://minb.pages.iu.edu/" target="_blank">Byung-Cheol Min</a></div>
       <div class="org-affil">Indiana University Bloomington</div>
@@ -394,11 +412,17 @@ description:
       <div class="org-affil">University of Pennsylvania</div>
     </div>
 
+    <div class="organizer-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Peihan Li.jpeg" alt="Peihan Li">
+      <div class="org-name"><a href="https://scholar.google.com/citations?user=Qg7-Gr0AAAAJ&hl=en" target="_blank">Peihan Li</a></div>
+      <div class="org-affil">Drexel University</div>
+    </div>
+
   </div>
 </div>
 
 <!-- Contact -->
 <div class="ws-section">
   <h2>Contact</h2>
-  <p>For inquiries, please contact <a href="https://lfzhou917.github.io/">Lifeng Zhou</a> at Drexel University.</p>
+  <p>For inquiries, please contact Lifeng Zhou (lz457#drexel.edu) and Peihan Li (pl525#drexel.edu) at Drexel University.</p>
 </div>
