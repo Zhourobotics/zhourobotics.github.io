@@ -66,7 +66,7 @@ social: true  # includes social icons at the bottom of the page
     <div class="col-md-12">
         <span style="display: block; margin-bottom: 1em"></span>
         <h4> About </h4>
-        The Drexel Zhou Lab aims to advance the robustness, reliability, and scalability of robotics and multi-robot systems. Our research integrates robotics and foundation models, and is driven by real-world challenges in environmental monitoring, disaster response, precision agriculture, urban mobility, and robotic manipulation. 
+        The Drexel Zhou Lab advances the robustness, reliability, and scalability of robotics and multi-robot systems. Our research integrates robotics with foundation models, including LLMs, VLMs, VLAs, and world models, driven by real-world challenges in warehouse logistics, search and rescue, precision agriculture, urban mobility, and agricultural processing.
     </div>
 </div>
 
@@ -74,93 +74,111 @@ social: true  # includes social icons at the bottom of the page
     <div class="col-md-12">
         <span style="display: block; margin-bottom: 1em"></span>
         <h4> News </h4>
-        <div class="table-responsive">
-            <table class="table table-sm table-borderless">
+        <div style="max-height: 290px; overflow-y: scroll; border: 1px solid #dee2e6; border-radius: 4px; padding: 1em 0.75em 0.5em; direction: rtl;">
+        <div class="table-responsive" style="direction: ltr;">
+            <table class="table table-sm table-borderless" style="margin-bottom: 0">
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 21, 2026</th>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 27, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Our <a href="/fm-mrs/">FM-MRS Workshop @ IROS 2026</a> has been accepted and is now online!
+                        Three papers accepted to CASE 2026: <a href="https://arxiv.org/abs/2509.14143">weight-aware robotic grasping via VLA (CLAW)</a>, <a href="https://arxiv.org/abs/2606.00966">VLA inference optimization for smart agricultural manipulation</a>, and <a href="https://arxiv.org/abs/2606.00449">root-oriented geometry for robotic grasping (ROG-Grasp)</a>.
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 2, 2026</th>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 21, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Our paper titled <a href="https://arxiv.org/abs/2502.03814">"Large Language Models for Multi-Robot Systems: A Survey"</a> has been accepted to Autonomous Robots!
-                    </td>
-                </tr>
-                <!-- <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 1, 2026</th>
-                    <td style="padding-top: 0em; padding-left: 0">
-                        Our project with Morgan State University has been funded by <a href="https://northeast.sare.org/">USDA SARE</a>!
-                    </td>
-                </tr> -->
-                <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">April 6, 2026</th>
-                    <td style="padding-top: 0em; padding-left: 0">
-                        Our paper titled <a href="https://arxiv.org/abs/2604.16436">"Fuzzy Encoding-Decoding to Improve Spiking Q-Learning Performance in Autonomous Driving"</a> has been accepted to NICE 2026!
+                        Our <a href="https://zhourobotics.github.io/fm-mrs/">FM-MRS Workshop @ IROS 2026</a> has been accepted and is now online.
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">March 26, 2026</th>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 02, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Our paper titled <a href="https://arxiv.org/abs/2603.25981">"Policy-Guided World Model Planning for Language-Conditioned Visual Navigation"</a> has been accepted to CVPR Workshops 2025!
+                        Our paper titled <a href="https://arxiv.org/abs/2502.03814">"Large Language Models for Multi-Robot Systems: A Survey"</a> has been accepted to Autonomous Robots.
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">June 15, 2025</th>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Apr 06, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Our paper on <a href="https://arxiv.org/pdf/2409.11230">resilient multi-robot tracking</a> has been accepted to IROS 2025 and selected as a <strong>Best Paper Finalist</strong>! 
+                        Our paper titled <a href="https://arxiv.org/abs/2604.16436">"Fuzzy Encoding-Decoding to Improve Spiking Q-Learning Performance in Autonomous Driving"</a> has been accepted to NICE 2026.
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">May 6, 2025</th>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Mar 26, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Our paper on <a href="https://ieeexplore.ieee.org/abstract/document/10989573">game-theoretic robot allocation</a> has been accepted to TRO! 
-                    </td>
-                </tr>
-                <!-- <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">April 14, 2025</th>
-                    <td style="padding-top: 0em; padding-left: 0">
-                        Our paper on <a href="https://openaccess.thecvf.com/content/CVPR2025W/WDFM-AD/html/Chahe_ReasonDrive_Efficient_Visual_Question_Answering_for_Autonomous_Vehicles_with_Reasoning-Enhanced_CVPRW_2025_paper.html">Finetuning chain-of-thought of small vision-language models for autonomous driving</a> has been accepted to <a href = "https://wdfm-ad.github.io/">CVPR 2025 WDFM-AD Workshop</a>! 
+                        Our paper titled <a href="https://openaccess.thecvf.com/content/CVPR2026W/WDFM-EAI/html/Chahe_Policy-Guided_World_Model_Planning_for_Language-Conditioned_Visual_Navigation_CVPRW_2026_paper.html">"Policy-Guided World Model Planning for Language-Conditioned Visual Navigation"</a> has been accepted to CVPR Workshops 2026.
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row" style="padding-top: 0.1em; white-space: nowrap; padding-right: 2em">Mar 15, 2025</th>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jan 21, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://doi.org/10.1002/cem.70088">in-situ microplastic detection on food via hyperspectral imaging</a> has been published in Journal of Chemometrics.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jan 16, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://doi.org/10.1016/j.jfutfo.2025.12.047">VLA-based intelligent food portioning for small-scale food operations</a> has been published in Journal of Future Foods.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Dec 23, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Two papers published in TASE: <a href="https://ieeexplore.ieee.org/abstract/document/11313787">failure-aware multi-robot coordination for resilient target tracking</a> and <a href="https://ieeexplore.ieee.org/abstract/document/11313788">RL for game-theoretic resource allocation on graphs</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Dec 19, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://arxiv.org/abs/2512.01882">spiking architecture for multi-modal decision-making in autonomous vehicles</a> has been accepted as an extended abstract to AAMAS 2026.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Sep 29, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://ieeexplore.ieee.org/abstract/document/11357266">hierarchical LLM-in-the-loop optimization for multi-robot tracking under unknown hazards</a> has been accepted to MRS 2025.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jun 15, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://arxiv.org/pdf/2409.11230">resilient multi-robot tracking</a> has been accepted to IROS 2025 and selected as a <strong>Best Paper Finalist</strong>!
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 06, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://ieeexplore.ieee.org/abstract/document/10989573">game-theoretic robot allocation</a> has been accepted to IEEE Transactions on Robotics (TRO).
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Apr 14, 2025</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://openaccess.thecvf.com/content/CVPR2025W/WDFM-AD/html/Chahe_ReasonDrive_Efficient_Visual_Question_Answering_for_Autonomous_Vehicles_with_Reasoning-Enhanced_CVPRW_2025_paper.html">Finetuning chain-of-thought of small vision-language models for autonomous driving</a> has been accepted to <a href = "https://wdfm-ad.github.io/">CVPR 2025 WDFM-AD Workshop</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Mar 15, 2025</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper on <a href="https://openaccess.thecvf.com/content/WACV2025W/LLVMAD/html/Chahe_Query3D_LLM-Powered_Open-Vocabulary_Scene_Segmentation_with_Language_Embedded_3D_Gaussians_WACVW_2025_paper.html">LLM-powered open-vocabulary scene segmentation with language embedded 3D Gaussians</a> won the <strong>Best Paper Award</strong> at the  <a href = "https://llvm-ad.github.io/WACV_2025/">WACV 2025 LLVM-AD Workshop</a>! 🎉
                     </td>
-                </tr> -->                
+                </tr>                
             </table>
+        </div>
         </div>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-12">
-        <span style="display: block; margin-bottom: 0.5em"></span>
+        <span style="display: block; margin-bottom: 1.5em"></span>
         <h4> Sponsors </h4>
         <span style="display: block; margin-bottom: 1em"></span>
-        <div class="row">
-            <div class="col-md-4" style="padding: 0 15px;">
-                <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
-                    <img src="/assets/img/arl.jpg" style="max-height: 100px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
-                </div>
-            </div>
-            <!-- <div class="col-md-3" style="padding: 0 15px;">
-                <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
-                    <img src="/assets/img/usda_sare.png" style="max-height: 80px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
-                </div>
-            </div> -->
-            <div class="col-md-3" style="padding: 0 15px;">
-                <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
-                    <img src="/assets/img/faa.png" style="max-height: 80px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
-                </div>
-            </div>
-            <div class="col-md-2" style="padding: 0 15px;">
-                <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
-                    <img src="/assets/img/harmoni.png" style="max-height: 60px; max-width: 100%; width: auto; object-fit: contain;" class="rounded z-depth-1">
-                </div>
-            </div>     
+        <div class="d-flex align-items-center" style="gap: 1.5rem; margin-bottom: 1rem;">
+            <img src="/assets/img/arl.jpg"       style="height: 75px; width: auto;" class="rounded z-depth-1" alt="ARL">
+            <img src="/assets/img/faa.png"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="FAA">
+            <img src="/assets/img/usda_sare.png"  style="height: 75px; width: auto;" class="rounded z-depth-1" alt="USDA SARE">
+        </div>
+        <div class="d-flex align-items-center" style="gap: 1.5rem;">
+            <img src="/assets/img/harmoni.png"    style="height: 75px; width: auto;" class="rounded z-depth-1" alt="Harmoni">
         </div>
     </div>
 </div>
