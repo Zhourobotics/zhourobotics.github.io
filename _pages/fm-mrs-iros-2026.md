@@ -349,7 +349,9 @@ description:
       <li>Foundation models for multi-agent decision making and task allocation</li>
       <li>Real-world deployment of foundation-model-enabled robot fleets</li>
     </ul>
-    <p style="margin-bottom:0"><strong>Submission details coming soon.</strong> Accepted papers will be presented as spotlight talks and/or posters.</p>
+    <p>Accepted papers will be presented as spotlight talks and/or posters.</p>
+    <p><strong>Submit your paper via <a href="https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/FM-MRS" target="_blank">OpenReview</a>.</strong></p>
+    <p style="margin-bottom:0">Please prepare your submission in the standard IEEE conference format. You can find the right template using the <a href="https://template-selector.ieee.org/secure/templateSelector/publicationType" target="_blank">IEEE template selector</a>.</p>
   </div>
 </div>
 
