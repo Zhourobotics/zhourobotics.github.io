@@ -340,7 +340,7 @@ description:
 <div class="ws-section">
   <h2>Call for Papers</h2>
   <div class="cfp-box">
-    <p>We invite submissions of extended abstracts (2–4 pages) on topics including but not limited to:</p>
+    <p>We invite submissions of extended abstracts (2–4 pages, including reference) on topics including but not limited to:</p>
     <ul>
       <li>LLM- and VLM-driven multi-robot coordination and planning</li>
       <li>Language-specified missions for heterogeneous robot teams</li>
