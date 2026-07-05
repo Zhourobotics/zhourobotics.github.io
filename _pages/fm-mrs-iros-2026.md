@@ -176,6 +176,41 @@ description:
   padding: 1.2rem 1.5rem;
   border-radius: 0 8px 8px 0;
 }
+
+/* Dark-mode contrast fixes. This page uses hardcoded light backgrounds, but in
+   dark mode the theme switches body text to a light color -> light-on-light.
+   These overrides only apply in dark mode; light mode is unchanged. */
+html[data-theme='dark'] .ws-section h2 {
+  color: #a8d8ea;                /* navy heading is unreadable on the dark page bg */
+}
+/* The theme pins color directly on p/li/strong/div (_base.scss), so inheritance
+   from the box is not enough — the inner elements must be targeted explicitly. */
+html[data-theme='dark'] .cfp-box p,
+html[data-theme='dark'] .cfp-box li,
+html[data-theme='dark'] .cfp-box strong {
+  color: #1a1a1a;                /* keep dark text on the light CFP box */
+}
+html[data-theme='dark'] .cfp-box a {
+  color: #1565c0;               /* readable blue link on the light box (not cyan) */
+}
+html[data-theme='dark'] .speaker-card .speaker-name,
+html[data-theme='dark'] .organizer-card .org-name {
+  color: #1a1a1a;                /* unlinked names are divs -> theme paints them light grey on the light cards */
+}
+html[data-theme='dark'] .speaker-card .speaker-name a,
+html[data-theme='dark'] .organizer-card .org-name a {
+  color: #1565c0;               /* linked names: readable blue instead of cyan on the light cards */
+}
+html[data-theme='dark'] .schedule-table td {
+  background: #f9f9f9;
+  color: #1a1a1a;                /* light bg + dark text for all rows */
+}
+html[data-theme='dark'] .schedule-table td strong {
+  color: #1a1a1a;                /* speaker names are <strong>, pinned light by the theme */
+}
+html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
+  background: #efefef;
+}
 </style>
 
 <!-- Hero -->
@@ -351,7 +386,8 @@ description:
     </ul>
     <p style="margin-bottom:0">Accepted papers will be presented as a <strong>2–3 minute pitch talk</strong> followed by a <strong>poster presentation</strong> during the coffee break session.</p>
     <p><strong>Submit your paper via <a href="https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/FM-MRS" target="_blank">OpenReview</a>.</strong></p>
-    <p style="margin-bottom:0">Please prepare your submission in the standard IEEE conference format. You can find the right template using the <a href="https://template-selector.ieee.org/secure/templateSelector/publicationType" target="_blank">IEEE template selector</a>.</p>
+    <p>Please prepare your submission in the standard IEEE conference format. You can find the right template using the <a href="https://template-selector.ieee.org/secure/templateSelector/publicationType" target="_blank">IEEE template selector</a>.</p>
+    <p style="margin-bottom:0"><strong>Submission deadline:</strong> August 16, 2026, 11:59 PM Pacific Daylight Time (PDT).</p>
   </div>
 </div>
 
