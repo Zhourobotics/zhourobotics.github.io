@@ -259,7 +259,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
 
     <div class="speaker-card">
       <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/M. Ani Hsieh.jpeg" alt="M. Ani Hsieh">
-      <div class="speaker-name"><a href="https://www.seas.upenn.edu/~m.hsieh/" target="_blank">M. Ani Hsieh</a></div>
+      <div class="speaker-name"><a href="https://www.grasp.upenn.edu/people/ani-hsieh/" target="_blank">M. Ani Hsieh</a></div>
       <div class="speaker-affil">University of Pennsylvania</div>
       <div class="speaker-title">TBD</div>
     </div>
