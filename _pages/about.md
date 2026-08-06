@@ -104,7 +104,7 @@ social: true  # includes social icons at the bottom of the page
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 01, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Happy to receive the USDA SARE grant with Morgan State University as the lead!
+                        Happy to receive the <strong>USDA SARE grant</strong> with Morgan State University as the lead!
                     </td>
                 </tr>
                 <tr>
