@@ -78,9 +78,33 @@ social: true  # includes social icons at the bottom of the page
         <div class="table-responsive" style="direction: ltr;">
             <table class="table table-sm table-borderless" style="margin-bottom: 0">
                 <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Aug 02, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper titled <a href="https://arxiv.org/abs/2509.14138">"SeqVLA: Sequential Task Execution for Long-Horizon Manipulation with Completion-Aware Vision-Language-Action Model"</a> has been accepted to ISRR 2026!
+                    </td>
+                </tr>
+                <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jul 20, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Happy to receive the <strong>NSF CAREER Award</strong>!
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jul 13, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper titled <a href="https://arxiv.org/abs/2605.01461">"LLM-Foraging: Large Language Models for Decentralized Swarm Robot Foraging"</a> has been accepted to DARS 2026!
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jul 13, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper titled <a href="https://arxiv.org/abs/2605.02037">"VILAS: A VLA-Integrated Low-cost Architecture with Soft Grasping for Robotic Manipulation"</a> has been accepted to DARS 2026!
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jun 16, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper titled <a href="https://arxiv.org/abs/2607.00283">"What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models"</a> has been accepted to IROS 2026!
                     </td>
                 </tr>
                 <tr>
