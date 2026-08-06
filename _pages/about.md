@@ -78,6 +78,12 @@ social: true  # includes social icons at the bottom of the page
         <div class="table-responsive" style="direction: ltr;">
             <table class="table table-sm table-borderless" style="margin-bottom: 0">
                 <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jul 20, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Happy to receive the <strong>NSF CAREER Award</strong>!
+                    </td>
+                </tr>
+                <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 27, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Three papers accepted to CASE 2026: <a href="https://arxiv.org/abs/2509.14143">weight-aware robotic grasping via VLA (CLAW)</a>, <a href="https://arxiv.org/abs/2606.00966">VLA inference optimization for smart agricultural manipulation</a>, and <a href="https://arxiv.org/abs/2606.00449">root-oriented geometry for robotic grasping (ROG-Grasp)</a>.
@@ -93,6 +99,12 @@ social: true  # includes social icons at the bottom of the page
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 02, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper titled <a href="https://arxiv.org/abs/2502.03814">"Large Language Models for Multi-Robot Systems: A Survey"</a> has been accepted to Autonomous Robots.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 01, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Happy to receive the <strong>USDA SARE grant</strong> with Morgan State University as the lead!
                     </td>
                 </tr>
                 <tr>
@@ -173,6 +185,7 @@ social: true  # includes social icons at the bottom of the page
         <h4> Sponsors </h4>
         <span style="display: block; margin-bottom: 1em"></span>
         <div class="d-flex align-items-center" style="gap: 1.5rem; margin-bottom: 1rem;">
+            <img src="/assets/img/NSF.jpg"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="NSF">
             <img src="/assets/img/arl.jpg"       style="height: 75px; width: auto;" class="rounded z-depth-1" alt="ARL">
             <img src="/assets/img/faa.png"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="FAA">
             <img src="/assets/img/usda_sare.png"  style="height: 75px; width: auto;" class="rounded z-depth-1" alt="USDA SARE">
