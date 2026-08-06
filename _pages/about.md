@@ -80,7 +80,7 @@ social: true  # includes social icons at the bottom of the page
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Aug 02, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Our paper on <a href="https://arxiv.org/abs/2509.14138">completion-aware VLA for long-horizon manipulation (SeqVLA)</a> has been accepted to ISRR 2026!
+                        Our paper on <a href="https://arxiv.org/abs/2509.14138">completion-aware VLA for long-horizon manipulation (SeqVLA)</a> has been accepted to ISRR 2026.
                     </td>
                 </tr>
                 <tr>
@@ -92,13 +92,13 @@ social: true  # includes social icons at the bottom of the page
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jul 13, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Two papers accepted to DARS 2026: <a href="https://arxiv.org/abs/2605.01461">LLM-driven decentralized swarm foraging</a> and <a href="https://arxiv.org/abs/2605.02037">low-cost VLA architecture for soft grasping (VILAS)</a>!
+                        Two papers accepted to DARS 2026: <a href="https://arxiv.org/abs/2605.01461">LLM-driven decentralized swarm foraging</a> and <a href="https://arxiv.org/abs/2605.02037">low-cost VLA architecture for soft grasping (VILAS)</a>.
                     </td>
                 </tr>
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jun 16, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Our paper on <a href="https://arxiv.org/abs/2607.00283">identifying planning-critical occluded agents via VLMs</a> has been accepted to IROS 2026!
+                        Our paper on <a href="https://arxiv.org/abs/2607.00283">identifying planning-critical occluded agents via VLMs</a> has been accepted to IROS 2026.
                     </td>
                 </tr>
                 <tr>
