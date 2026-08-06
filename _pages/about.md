@@ -187,10 +187,10 @@ social: true  # includes social icons at the bottom of the page
         <div class="d-flex align-items-center" style="gap: 1.5rem; margin-bottom: 1rem;">
             <img src="/assets/img/NSF.jpg"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="NSF">
             <img src="/assets/img/arl.jpg"       style="height: 75px; width: auto;" class="rounded z-depth-1" alt="ARL">
-            <img src="/assets/img/faa.png"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="FAA">
+            <img src="/assets/img/usda_sare.png"  style="height: 75px; width: auto;" class="rounded z-depth-1" alt="USDA SARE">
         </div>
         <div class="d-flex align-items-center" style="gap: 1.5rem; margin-top: 1rem;">
-            <img src="/assets/img/usda_sare.png"  style="height: 75px; width: auto;" class="rounded z-depth-1" alt="USDA SARE">
+            <img src="/assets/img/faa.png"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="FAA">
             <img src="/assets/img/harmoni.png"    style="height: 75px; width: auto;" class="rounded z-depth-1" alt="Harmoni">
         </div>
     </div>
