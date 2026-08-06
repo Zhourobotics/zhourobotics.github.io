@@ -104,7 +104,7 @@ social: true  # includes social icons at the bottom of the page
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 01, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Happy to receive the <strong>USDA SARE grant</strong> with Morgan State University as the lead!
+                        Happy to receive the USDA SARE grant with Morgan State University as the lead!
                     </td>
                 </tr>
                 <tr>
@@ -188,9 +188,9 @@ social: true  # includes social icons at the bottom of the page
             <img src="/assets/img/NSF.jpg"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="NSF">
             <img src="/assets/img/arl.jpg"       style="height: 75px; width: auto;" class="rounded z-depth-1" alt="ARL">
             <img src="/assets/img/faa.png"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="FAA">
-            <img src="/assets/img/usda_sare.png"  style="height: 75px; width: auto;" class="rounded z-depth-1" alt="USDA SARE">
         </div>
-        <div class="d-flex align-items-center" style="gap: 1.5rem;">
+        <div class="d-flex align-items-center" style="gap: 1.5rem; margin-top: 1rem;">
+            <img src="/assets/img/usda_sare.png"  style="height: 75px; width: auto;" class="rounded z-depth-1" alt="USDA SARE">
             <img src="/assets/img/harmoni.png"    style="height: 75px; width: auto;" class="rounded z-depth-1" alt="Harmoni">
         </div>
     </div>
