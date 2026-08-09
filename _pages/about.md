@@ -74,7 +74,7 @@ social: true  # includes social icons at the bottom of the page
     <div class="col-md-12">
         <span style="display: block; margin-bottom: 1em"></span>
         <h4> News </h4>
-        <div style="max-height: 290px; overflow-y: scroll; border: 1px solid #dee2e6; border-radius: 4px; padding: 1em 0.75em 0.5em; direction: rtl;">
+        <div style="max-height: 400px; overflow-y: scroll; border: 1px solid #dee2e6; border-radius: 4px; padding: 1em 0.75em 0.5em; direction: rtl;">
         <div class="table-responsive" style="direction: ltr;">
             <table class="table table-sm table-borderless" style="margin-bottom: 0">
                 <tr>
