@@ -80,7 +80,7 @@ social: true  # includes social icons at the bottom of the page
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Aug 07, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
-                        Two papers accepted to ECCV 2026 Workshops: <a href="https://curateddata.github.io/">aerial-ground cross-view dataset for heterogeneous robot teams (AGT-CV)</a> and <a href="https://eccv26wmeai.github.io/">VLMs for task formalization</a>.
+                        Two papers accepted to ECCV 2026 Workshops: <a href="https://arxiv.org/abs/2605.06478">aerial-ground cross-view dataset for heterogeneous robot teams (AGT-CV)</a> (<a href="https://curateddata.github.io/">CDEL</a>) and <a href="https://arxiv.org/abs/2509.21576">VLMs for task formalization</a> (<a href="https://eccv26wmeai.github.io/">WMEAI</a>).
                     </td>
                 </tr>
                 <tr>
