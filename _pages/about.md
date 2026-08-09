@@ -78,6 +78,12 @@ social: true  # includes social icons at the bottom of the page
         <div class="table-responsive" style="direction: ltr;">
             <table class="table table-sm table-borderless" style="margin-bottom: 0">
                 <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Aug 07, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Two papers accepted to ECCV 2026 Workshops: <a href="https://curateddata.github.io/">aerial-ground cross-view dataset for heterogeneous robot teams (AGT-CV)</a> and <a href="https://eccv26wmeai.github.io/">VLMs for task formalization</a>.
+                    </td>
+                </tr>
+                <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Aug 02, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Our paper on <a href="https://arxiv.org/abs/2509.14138">completion-aware VLA for long-horizon manipulation (SeqVLA)</a> has been accepted to ISRR 2026.
