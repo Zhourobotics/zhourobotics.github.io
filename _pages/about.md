@@ -89,12 +89,14 @@ social: true  # includes social icons at the bottom of the page
                         Our paper on <a href="https://arxiv.org/abs/2509.14138">completion-aware VLA for long-horizon manipulation (SeqVLA)</a> has been accepted to ISRR 2026.
                     </td>
                 </tr>
+{% comment %} 暂时隐藏，待公布后取消注释即可恢复
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jul 20, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Happy to receive the <strong>NSF CAREER Award</strong>!
                     </td>
                 </tr>
+{% endcomment %}
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Jul 13, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
@@ -125,12 +127,14 @@ social: true  # includes social icons at the bottom of the page
                         Our paper titled <a href="https://arxiv.org/abs/2502.03814">"Large Language Models for Multi-Robot Systems: A Survey"</a> has been accepted to Autonomous Robots.
                     </td>
                 </tr>
+{% comment %} 暂时隐藏，待公布后取消注释即可恢复
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">May 01, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Happy to receive the <strong>USDA SARE grant</strong> with Morgan State University as the lead!
                     </td>
                 </tr>
+{% endcomment %}
                 <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Apr 06, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
@@ -208,12 +212,19 @@ social: true  # includes social icons at the bottom of the page
         <span style="display: block; margin-bottom: 1.5em"></span>
         <h4> Sponsors </h4>
         <span style="display: block; margin-bottom: 1em"></span>
+{% comment %} NSF 与 USDA SARE 暂时隐藏。恢复方法：删掉下面那个单行的 div，然后取消本注释块。
         <div class="d-flex align-items-center" style="gap: 1.5rem; margin-bottom: 1rem;">
             <img src="/assets/img/NSF.jpg"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="NSF">
             <img src="/assets/img/arl.jpg"       style="height: 75px; width: auto;" class="rounded z-depth-1" alt="ARL">
             <img src="/assets/img/usda_sare.png"  style="height: 75px; width: auto;" class="rounded z-depth-1" alt="USDA SARE">
         </div>
         <div class="d-flex align-items-center" style="gap: 1.5rem; margin-top: 1rem;">
+            <img src="/assets/img/faa.png"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="FAA">
+            <img src="/assets/img/harmoni.png"    style="height: 75px; width: auto;" class="rounded z-depth-1" alt="Harmoni">
+        </div>
+{% endcomment %}
+        <div class="d-flex align-items-center" style="gap: 1.5rem; margin-bottom: 1rem;">
+            <img src="/assets/img/arl.jpg"       style="height: 75px; width: auto;" class="rounded z-depth-1" alt="ARL">
             <img src="/assets/img/faa.png"        style="height: 75px; width: auto;" class="rounded z-depth-1" alt="FAA">
             <img src="/assets/img/harmoni.png"    style="height: 75px; width: auto;" class="rounded z-depth-1" alt="Harmoni">
         </div>
