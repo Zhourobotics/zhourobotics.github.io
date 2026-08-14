@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Specify Ruby version for compatibility
-ruby '~> 3.0.0'
+ruby '>= 3.0'
 
 group :jekyll_plugins do
     require 'rbconfig'
