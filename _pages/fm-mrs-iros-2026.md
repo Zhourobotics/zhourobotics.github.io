@@ -387,7 +387,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
     <p style="margin-bottom:0">Accepted papers will be presented as a <strong>2–3 minute pitch talk</strong> followed by a <strong>poster presentation</strong> during the coffee break session.</p>
     <p><strong>Submit your paper via <a href="https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/FM-MRS" target="_blank">OpenReview</a>.</strong></p>
     <p>Please prepare your submission in the standard IEEE conference format. You can find the right template using the <a href="https://template-selector.ieee.org/secure/templateSelector/publicationType" target="_blank">IEEE template selector</a>.</p>
-    <p style="margin-bottom:0"><strong>Submission deadline:</strong> August 16, 2026, 11:59 PM Pacific Daylight Time (PDT).</p>
+    <p style="margin-bottom:0"><strong>Submission deadline:</strong> <s>August 16, 2026</s> <strong style="color:#d32f2f">August 23, 2026</strong>, 11:59 PM Pacific Daylight Time (PDT).</p>
   </div>
 </div>
 
