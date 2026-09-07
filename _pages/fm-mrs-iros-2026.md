@@ -301,34 +301,29 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
     </thead>
     <tbody>
       <tr>
-        <td class="time-col">8:30 – 8:40</td>
+        <td class="time-col">8:30 – 8:35</td>
         <td>Opening Remarks</td>
         <td>Workshop overview and introduction</td>
       </tr>
       <tr>
-        <td class="time-col">8:40 – 8:55</td>
+        <td class="time-col">8:35 – 8:55</td>
         <td>Invited Talk 1</td>
         <td><strong>Nicholas Roy</strong> (MIT) &mdash; Foundation Models and Symbol Grounding for Multirobot Systems</td>
       </tr>
       <tr>
-        <td class="time-col">8:55 – 9:10</td>
+        <td class="time-col">8:55 – 9:15</td>
         <td>Invited Talk 2</td>
         <td><strong>Chuchu Fan</strong> (MIT) &mdash; LLMs and VLMs Can Solve Real-World Planning Rigorously with Formal Reasoning Tools</td>
       </tr>
       <tr>
-        <td class="time-col">9:10 – 9:25</td>
+        <td class="time-col">9:15 – 9:35</td>
         <td>Invited Talk 3</td>
         <td><strong>M. Ani Hsieh</strong> (University of Pennsylvania)</td>
       </tr>
       <tr>
-        <td class="time-col">9:25 – 9:40</td>
+        <td class="time-col">9:35 – 9:55</td>
         <td>Invited Talk 4</td>
         <td><strong>Javier Alonso-Mora</strong> (TU Delft)</td>
-      </tr>
-      <tr>
-        <td class="time-col">9:40 – 9:55</td>
-        <td>Q&amp;A with Morning Speakers</td>
-        <td>Open discussion with the speakers of Invited Talks 1&ndash;4</td>
       </tr>
       <tr>
         <td class="time-col">9:55 – 10:15</td>
@@ -341,27 +336,28 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
         <td>Poster presentations and networking</td>
       </tr>
       <tr>
-        <td class="time-col">11:15 – 11:30</td>
+        <td class="time-col">11:15 – 11:35</td>
         <td>Invited Talk 5</td>
         <td><strong>Jiachen Li</strong> (Georgia Tech) &mdash; Toward Safe and Efficient Coordination for Cooperative Embodied Agents</td>
       </tr>
       <tr>
-        <td class="time-col">11:30 – 11:45</td>
+        <td class="time-col">11:35 – 11:55</td>
         <td>Invited Talk 6</td>
         <td><strong>Ameya Agaskar</strong> (Amazon Robotics) &mdash; DEEPFLEET: Multi-Agent Foundation Models for Mobile Robots</td>
       </tr>
       <tr>
-        <td class="time-col">11:45 – 12:20</td>
+        <td class="time-col">11:55 – 12:25</td>
         <td>Panel Discussion</td>
         <td>Open Q&amp;A and discussion on future directions</td>
       </tr>
       <tr>
-        <td class="time-col">12:20 – 12:30</td>
+        <td class="time-col">12:25 – 12:30</td>
         <td>Closing Remarks</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <p style="font-size:0.85rem; margin-top:0.6rem;"><em>Each invited talk slot includes a 15-minute presentation followed by 5 minutes of Q&amp;A.</em></p>
 </div>
 
 <!-- Call for Papers -->
