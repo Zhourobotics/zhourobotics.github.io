@@ -274,15 +274,8 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
     <div class="speaker-card">
       <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/Jiachen Li.jpeg" alt="Jiachen Li">
       <div class="speaker-name"><a href="https://jiachenli94.github.io/" target="_blank">Jiachen Li</a></div>
-      <div class="speaker-affil">UC Riverside</div>
+      <div class="speaker-affil">Georgia Tech</div>
       <div class="speaker-title">Toward Safe and Efficient Coordination for Cooperative Embodied Agents</div>
-    </div>
-
-    <div class="speaker-card">
-      <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Lifeng Zhou.jpeg" alt="Lifeng Zhou">
-      <div class="speaker-name"><a href="https://lfzhou917.github.io/" target="_blank">Lifeng Zhou</a></div>
-      <div class="speaker-affil">Drexel University</div>
-      <div class="speaker-title">Large Language Models for Decentralized Multi-Robot Coordination</div>
     </div>
 
     <div class="speaker-card">
@@ -308,37 +301,37 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
     </thead>
     <tbody>
       <tr>
-        <td class="time-col">8:30 – 8:35</td>
+        <td class="time-col">8:30 – 8:40</td>
         <td>Opening Remarks</td>
         <td>Workshop overview and introduction</td>
       </tr>
       <tr>
-        <td class="time-col">8:35 – 8:50</td>
+        <td class="time-col">8:40 – 8:55</td>
         <td>Invited Talk 1</td>
         <td><strong>Nicholas Roy</strong> (MIT) &mdash; Foundation Models and Symbol Grounding for Multirobot Systems</td>
       </tr>
       <tr>
-        <td class="time-col">8:50 – 9:05</td>
+        <td class="time-col">8:55 – 9:10</td>
         <td>Invited Talk 2</td>
         <td><strong>Chuchu Fan</strong> (MIT) &mdash; LLMs and VLMs Can Solve Real-World Planning Rigorously with Formal Reasoning Tools</td>
       </tr>
       <tr>
-        <td class="time-col">9:05 – 9:20</td>
+        <td class="time-col">9:10 – 9:25</td>
         <td>Invited Talk 3</td>
         <td><strong>M. Ani Hsieh</strong> (University of Pennsylvania)</td>
       </tr>
       <tr>
-        <td class="time-col">9:20 – 9:35</td>
+        <td class="time-col">9:25 – 9:40</td>
         <td>Invited Talk 4</td>
         <td><strong>Javier Alonso-Mora</strong> (TU Delft)</td>
       </tr>
       <tr>
-        <td class="time-col">9:35 – 9:50</td>
-        <td>Invited Talk 5</td>
-        <td><strong>Jiachen Li</strong> (UC Riverside) &mdash; Toward Safe and Efficient Coordination for Cooperative Embodied Agents</td>
+        <td class="time-col">9:40 – 9:55</td>
+        <td>Q&amp;A with Morning Speakers</td>
+        <td>Open discussion with the speakers of Invited Talks 1&ndash;4</td>
       </tr>
       <tr>
-        <td class="time-col">9:50 – 10:15</td>
+        <td class="time-col">9:55 – 10:15</td>
         <td>Contributed Spotlight Talks</td>
         <td>Presentations from accepted submissions</td>
       </tr>
@@ -349,21 +342,21 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       </tr>
       <tr>
         <td class="time-col">11:15 – 11:30</td>
-        <td>Invited Talk 6</td>
-        <td><strong>Lifeng Zhou</strong> (Drexel University) &mdash; Large Language Models for Decentralized Multi-Robot Coordination</td>
+        <td>Invited Talk 5</td>
+        <td><strong>Jiachen Li</strong> (Georgia Tech) &mdash; Toward Safe and Efficient Coordination for Cooperative Embodied Agents</td>
       </tr>
       <tr>
         <td class="time-col">11:30 – 11:45</td>
-        <td>Invited Talk 7</td>
+        <td>Invited Talk 6</td>
         <td><strong>Ameya Agaskar</strong> (Amazon Robotics) &mdash; DEEPFLEET: Multi-Agent Foundation Models for Mobile Robots</td>
       </tr>
       <tr>
-        <td class="time-col">11:45 – 12:25</td>
+        <td class="time-col">11:45 – 12:20</td>
         <td>Panel Discussion</td>
         <td>Open Q&amp;A and discussion on future directions</td>
       </tr>
       <tr>
-        <td class="time-col">12:25 – 12:30</td>
+        <td class="time-col">12:20 – 12:30</td>
         <td>Closing Remarks</td>
         <td></td>
       </tr>
@@ -405,7 +398,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
     <div class="organizer-card">
       <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Jiachen Li.jpeg" alt="Jiachen Li">
       <div class="org-name"><a href="https://jiachenli94.github.io/" target="_blank">Jiachen Li</a></div>
-      <div class="org-affil">UC Riverside</div>
+      <div class="org-affil">Georgia Tech</div>
     </div>
 
     <div class="organizer-card">
