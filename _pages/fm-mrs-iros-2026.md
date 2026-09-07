@@ -357,7 +357,6 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       </tr>
     </tbody>
   </table>
-  <p style="font-size:0.85rem; margin-top:0.6rem;"><em>Each invited talk slot includes a 15-minute presentation followed by 5 minutes of Q&amp;A.</em></p>
 </div>
 
 <!-- Call for Papers -->
