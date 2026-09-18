@@ -374,7 +374,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       <tr>
         <td class="time-col">12:20 – 12:25</td>
         <td>Community Announcement</td>
-        <td><strong>Giuseppe Loianno</strong> and <strong>Francesco Blasi</strong> (UC Berkeley) &mdash; A2RL Multi-Agent Drone Racing Challenge</td>
+        <td><strong>Giuseppe Loianno</strong> (UC Berkeley) and <strong>Francesco Blasi</strong> (ASPIRE) &mdash; A2RL Multi-Agent Drone Racing Challenge</td>
       </tr>
       <tr>
         <td class="time-col">12:25 – 12:30</td>
