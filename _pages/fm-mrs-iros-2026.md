@@ -170,6 +170,24 @@ description:
   color: #555;
   font-style: italic;
 }
+.paper-list {
+  padding-left: 1.4rem;
+  margin: 0;
+}
+.paper-list li {
+  margin-bottom: 0.9rem;
+}
+.paper-list .paper-title {
+  display: block;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.paper-list .paper-authors {
+  display: block;
+  font-size: 0.86rem;
+  color: #666;
+  margin-top: 0.15rem;
+}
 .cfp-box {
   background: #f0f5ff;
   border-left: 4px solid #0f3460;
@@ -200,6 +218,9 @@ html[data-theme='dark'] .organizer-card .org-name {
 html[data-theme='dark'] .speaker-card .speaker-name a,
 html[data-theme='dark'] .organizer-card .org-name a {
   color: #1565c0;               /* linked names: readable blue instead of cyan on the light cards */
+}
+html[data-theme='dark'] .paper-list .paper-authors {
+  color: #9aa7b4;              /* #666 on the dark page bg is unreadable */
 }
 html[data-theme='dark'] .schedule-table td {
   background: #f9f9f9;
@@ -328,7 +349,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       <tr>
         <td class="time-col">9:55 – 10:15</td>
         <td>Contributed Spotlight Talks</td>
-        <td>Presentations from accepted submissions</td>
+        <td>Lightning talks from the ten accepted papers</td>
       </tr>
       <tr class="break-row">
         <td class="time-col">10:15 – 11:15</td>
@@ -346,9 +367,14 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
         <td><strong>Ameya Agaskar</strong> (Amazon Robotics) &mdash; DEEPFLEET: Multi-Agent Foundation Models for Mobile Robots</td>
       </tr>
       <tr>
-        <td class="time-col">11:55 – 12:25</td>
+        <td class="time-col">11:55 – 12:20</td>
         <td>Panel Discussion</td>
         <td>Open Q&amp;A and discussion on future directions</td>
+      </tr>
+      <tr>
+        <td class="time-col">12:20 – 12:25</td>
+        <td>Community Announcement</td>
+        <td><strong>Giuseppe Loianno</strong> and <strong>Francesco Blasi</strong> (UC Berkeley) &mdash; A2RL Multi-Agent Drone Racing Challenge</td>
       </tr>
       <tr>
         <td class="time-col">12:25 – 12:30</td>
@@ -357,6 +383,54 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       </tr>
     </tbody>
   </table>
+</div>
+
+<!-- Accepted Papers -->
+<div class="ws-section">
+  <h2>Accepted Papers</h2>
+  <p>Ten papers were accepted to the workshop. Each is presented as a 2-minute lightning talk during the Contributed Spotlight session, followed by a poster during the coffee break. Papers are available on <a href="https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/FM-MRS" target="_blank">OpenReview</a>.</p>
+  <ol class="paper-list">
+      <li>
+        <span class="paper-title">Risk-Bounded Language-to-Task Allocation: A Conformal Prediction Framework for Heterogeneous Robot Teams</span>
+        <span class="paper-authors">Shivum Telang</span>
+      </li>
+      <li>
+        <span class="paper-title">Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs</span>
+        <span class="paper-authors">Xinyuan Liu, Eren Sadikoglu, Riana Chatterjee, Ransalu Senanayake</span>
+      </li>
+      <li>
+        <span class="paper-title">Evaluating Social Reasoning in Embodied Vision-Language Models</span>
+        <span class="paper-authors">Daniel Weiner, Raj Korpan</span>
+      </li>
+      <li>
+        <span class="paper-title">LLM-Guided Adaptive Auction Coordination for Multi-Autonomous Trucks Under Non-Nominal Logistics Yard Conditions</span>
+        <span class="paper-authors">Seongju Jang, Jiayi Qiu, Meng Xu, SangHyun Lee</span>
+      </li>
+      <li>
+        <span class="paper-title">Multi-Robot Formation Coordination with Verified Agentic LLM Planning</span>
+        <span class="paper-authors">Jinyuan Zhang, Yuwei Wu, Guangyao Shi, Jonathan Diller, Gaurav S. Sukhatme, Vijay Kumar</span>
+      </li>
+      <li>
+        <span class="paper-title">PIP-LLM: Integrating PDDL-Integer Programming with LLMs for Coordinating Multi-Robot Teams Using Natural Language</span>
+        <span class="paper-authors">Guangyao Shi</span>
+      </li>
+      <li>
+        <span class="paper-title">NeuroMesh: A Unified Neural Inference Framework for Decentralized Multi-Robot Collaboration</span>
+        <span class="paper-authors">Yang Zhou, Yash Shetye, Long Quang, Devon Super, Jesse Milzman, Manohari Goarin, Aditya Azad, Devang Sunil Dhake, Jeffrey Mao, Carlos Nieto-Granda, Giuseppe Loianno</span>
+      </li>
+      <li>
+        <span class="paper-title">TriPlane-WAM: A Multi-Robot World Action Model with Shared Tri-Plane Workspace</span>
+        <span class="paper-authors">Guoning Wu, Zijian Cai, Yuhang Zhang, Ying Liu, Yongbin Zheng</span>
+      </li>
+      <li>
+        <span class="paper-title">Interactive Grounding for Multi-Robot Coordination using Affordance-Based Hypergraphs</span>
+        <span class="paper-authors">Noah Boehme, Geoffrey Hollinger</span>
+      </li>
+      <li>
+        <span class="paper-title">Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning</span>
+        <span class="paper-authors">Vivek Khatana, Zijian Song, Naira Hovakimyan, Petros G. Voulgaris</span>
+      </li>
+  </ol>
 </div>
 
 <!-- Call for Papers -->
@@ -372,10 +446,10 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       <li>Foundation models for multi-agent decision making and task allocation</li>
       <li>Real-world deployment of foundation-model-enabled robot fleets</li>
     </ul>
-    <p style="margin-bottom:0">Accepted papers will be presented as a <strong>2–3 minute pitch talk</strong> followed by a <strong>poster presentation</strong> during the coffee break session.</p>
+    <p style="margin-bottom:0">Accepted papers are presented as a <strong>2-minute lightning talk</strong> followed by a <strong>poster presentation</strong> during the coffee break session.</p>
     <p><strong>Submit your paper via <a href="https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/FM-MRS" target="_blank">OpenReview</a>.</strong></p>
     <p>Please prepare your submission in the standard IEEE conference format. You can find the right template using the <a href="https://template-selector.ieee.org/secure/templateSelector/publicationType" target="_blank">IEEE template selector</a>.</p>
-    <p style="margin-bottom:0"><strong>Submission deadline:</strong> <s>August 16, 2026</s> <strong style="color:#d32f2f">August 23, 2026</strong>, 11:59 PM Pacific Daylight Time (PDT).</p>
+    <p style="margin-bottom:0"><strong>Submissions are now closed.</strong> The deadline was August 23, 2026.</p>
   </div>
 </div>
 
