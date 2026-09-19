@@ -282,7 +282,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/M. Ani Hsieh.jpeg" alt="M. Ani Hsieh">
       <div class="speaker-name"><a href="https://www.grasp.upenn.edu/people/ani-hsieh/" target="_blank">M. Ani Hsieh</a></div>
       <div class="speaker-affil">University of Pennsylvania</div>
-      <div class="speaker-title">TBD</div>
+      <div class="speaker-title">Physics Foundation Models for Multi-Robot Autonomy: From Team-Level Sensing to Guaranteed-Safe Motion</div>
     </div>
 
     <div class="speaker-card">
@@ -339,7 +339,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       <tr>
         <td class="time-col">9:15 – 9:35</td>
         <td>Invited Talk 3</td>
-        <td><strong>M. Ani Hsieh</strong> (University of Pennsylvania)</td>
+        <td><strong>M. Ani Hsieh</strong> (University of Pennsylvania) &mdash; Physics Foundation Models for Multi-Robot Autonomy: From Team-Level Sensing to Guaranteed-Safe Motion</td>
       </tr>
       <tr>
         <td class="time-col">9:35 – 9:55</td>
