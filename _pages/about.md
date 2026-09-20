@@ -78,6 +78,30 @@ social: true  # includes social icons at the bottom of the page
         <div class="table-responsive" style="direction: ltr;">
             <table class="table table-sm table-borderless" style="margin-bottom: 0">
                 <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Sep 10, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper <a href="https://arxiv.org/abs/2509.21576">"Vision Language Models Cannot Plan, but Can They Formalize?"</a> won the <strong>Best Paper Award</strong> at the <a href="https://eccv26wmeai.github.io/">ECCV 2026 WMEAI Workshop</a>! 🎉
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Sep 09, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our paper on <a href="https://www.sciencedirect.com/science/article/pii/S2666154326006575">process-aware robotic food assembly with closed-loop visual monitoring</a> has been published in Journal of Agriculture and Food Research.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Sep 05, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Two papers accepted to SSRR 2026: LLM-based decentralized multi-robot flocking (LLM-Flock) and an interceptor drone for perimeter defense (Project SCOUT).
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Aug 21, 2026</th>
+                    <td style="padding-top: 0em; padding-left: 0">
+                        Our team placed in the <strong>Top-10</strong> of the Multi-Task (Generalist) Track at the RSS 2026 Workshop &amp; Challenge on Post-Training for Robotics Foundation Models.
+                    </td>
+                </tr>
+                <tr>
                     <th scope="row" style="padding-top: 0.1em; padding-right: 1.5em; white-space: nowrap;">Aug 07, 2026</th>
                     <td style="padding-top: 0em; padding-left: 0">
                         Two papers accepted to ECCV 2026 Workshops: <a href="https://arxiv.org/abs/2605.06478">aerial-ground cross-view dataset for heterogeneous robot teams (AGT-CV)</a> (<a href="https://curateddata.github.io/">CDEL</a>) and <a href="https://arxiv.org/abs/2509.21576">VLMs for task formalization</a> (<a href="https://eccv26wmeai.github.io/">WMEAI</a>).
