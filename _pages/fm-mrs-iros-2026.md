@@ -237,7 +237,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
 <!-- Hero -->
 <div class="ws-hero">
   <h1>Foundation Models in Multi-Robot Systems</h1>
-  <div class="subtitle">IROS 2026 Workshop &nbsp;|&nbsp; Pittsburgh, PA, USA &nbsp;|&nbsp; Sunday, Sep 27, 2026 &nbsp;|&nbsp; 8:30 AM – 12:30 PM</div>
+  <div class="subtitle">IROS 2026 Workshop &nbsp;|&nbsp; Rooms 301 &amp; 302, Pittsburgh, PA, USA &nbsp;|&nbsp; Sunday, Sep 27, 2026 &nbsp;|&nbsp; 8:30 AM – 12:30 PM</div>
   <div class="badges">
     <span>Half-day Workshop</span>
     <span>Morning Session</span>
