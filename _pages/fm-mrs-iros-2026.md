@@ -465,6 +465,12 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
     </div>
 
     <div class="organizer-card">
+      <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Peihan Li.jpeg" alt="Peihan Li">
+      <div class="org-name"><a href="https://scholar.google.com/citations?user=Qg7-Gr0AAAAJ&hl=en" target="_blank">Peihan Li</a></div>
+      <div class="org-affil">Drexel University</div>
+    </div>
+
+    <div class="organizer-card">
       <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Jiachen Li.jpeg" alt="Jiachen Li">
       <div class="org-name"><a href="https://jiachenli94.github.io/" target="_blank">Jiachen Li</a></div>
       <div class="org-affil">Georgia Tech</div>
@@ -510,12 +516,6 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Vijay Kumar.jpeg" alt="Vijay Kumar">
       <div class="org-name"><a href="https://www.kumarrobotics.org/dr-vijay-kumar/" target="_blank">Vijay Kumar</a></div>
       <div class="org-affil">University of Pennsylvania</div>
-    </div>
-
-    <div class="organizer-card">
-      <img class="person-photo" src="/assets/img/IROS2026workshop/organizers/Peihan Li.jpeg" alt="Peihan Li">
-      <div class="org-name"><a href="https://scholar.google.com/citations?user=Qg7-Gr0AAAAJ&hl=en" target="_blank">Peihan Li</a></div>
-      <div class="org-affil">Drexel University</div>
     </div>
 
   </div>
