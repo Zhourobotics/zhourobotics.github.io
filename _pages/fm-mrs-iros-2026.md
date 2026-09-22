@@ -51,7 +51,9 @@ description:
 }
 .speaker-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  /* auto-fit: 5 speakers sit on one row on a wide screen and reflow on narrow
+     ones. A fixed 4 columns would leave a lone card stranded on a second row. */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1.2rem;
 }
 .speaker-card {
@@ -265,13 +267,6 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
   <div class="speaker-grid">
 
     <div class="speaker-card">
-      <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/Nicholas Roy.jpeg" alt="Nicholas Roy">
-      <div class="speaker-name"><a href="https://aeroastro.mit.edu/people/nicholas-roy/" target="_blank">Nicholas Roy</a></div>
-      <div class="speaker-affil">MIT</div>
-      <div class="speaker-title">Foundation Models and Symbol Grounding for Multirobot Systems</div>
-    </div>
-
-    <div class="speaker-card">
       <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/Chuchu Fan.jpeg" alt="Chuchu Fan">
       <div class="speaker-name"><a href="https://chuchu.mit.edu/" target="_blank">Chuchu Fan</a></div>
       <div class="speaker-affil">MIT</div>
@@ -322,28 +317,23 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
     </thead>
     <tbody>
       <tr>
-        <td class="time-col">8:30 – 8:35</td>
+        <td class="time-col">8:30 – 8:40</td>
         <td>Opening Remarks</td>
         <td>Workshop overview and introduction</td>
       </tr>
       <tr>
-        <td class="time-col">8:35 – 8:55</td>
+        <td class="time-col">8:40 – 9:05</td>
         <td>Invited Talk 1</td>
-        <td><strong>Nicholas Roy</strong> (MIT) &mdash; Foundation Models and Symbol Grounding for Multirobot Systems</td>
-      </tr>
-      <tr>
-        <td class="time-col">8:55 – 9:15</td>
-        <td>Invited Talk 2</td>
         <td><strong>Chuchu Fan</strong> (MIT) &mdash; LLMs and VLMs Can Solve Real-World Planning Rigorously with Formal Reasoning Tools</td>
       </tr>
       <tr>
-        <td class="time-col">9:15 – 9:35</td>
-        <td>Invited Talk 3</td>
+        <td class="time-col">9:05 – 9:30</td>
+        <td>Invited Talk 2</td>
         <td><strong>M. Ani Hsieh</strong> (University of Pennsylvania) &mdash; Physics Foundation Models for Multi-Robot Autonomy: From Team-Level Sensing to Guaranteed-Safe Motion</td>
       </tr>
       <tr>
-        <td class="time-col">9:35 – 9:55</td>
-        <td>Invited Talk 4</td>
+        <td class="time-col">9:30 – 9:55</td>
+        <td>Invited Talk 3</td>
         <td><strong>Javier Alonso-Mora</strong> (TU Delft)</td>
       </tr>
       <tr>
@@ -358,12 +348,12 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       </tr>
       <tr>
         <td class="time-col">11:15 – 11:35</td>
-        <td>Invited Talk 5</td>
+        <td>Invited Talk 4</td>
         <td><strong>Jiachen Li</strong> (Georgia Tech) &mdash; Toward Safe and Efficient Coordination for Cooperative Embodied Agents</td>
       </tr>
       <tr>
         <td class="time-col">11:35 – 11:55</td>
-        <td>Invited Talk 6</td>
+        <td>Invited Talk 5</td>
         <td><strong>Ameya Agaskar</strong> (Amazon Robotics) &mdash; DEEPFLEET: Multi-Agent Foundation Models for Mobile Robots</td>
       </tr>
       <tr>
