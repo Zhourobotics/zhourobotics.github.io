@@ -13,7 +13,7 @@ horizontal: false
 Our lab explores the foundations of **robust, reliable, and scalable autonomy** for robotic and multi-robot systems. We aim to build intelligent systems that can **perceive, reason, and act** in dynamic and unstructured environments, enabling applications in environmental monitoring, precision agriculture, disaster response, urban mobility, and beyond. We are particularly interested in how **coordination, perception, planning, and control** can be enhanced by combining algorithmic tools with **data-driven approaches**, including emerging **foundation models**. This includes investigating how robot teams can operate effectively under limited communication, uncertainty, and evolving tasks, while generalizing across diverse environments and missions.
 
 
-[Preprint](https://arxiv.org/abs/2502.03814): A survey of large language models (LLMs) for multi-robot coordination. 
+[Autonomous Robots](https://arxiv.org/abs/2502.03814): A survey of large language models (LLMs) for multi-robot coordination. 
 
 [Current Robotics Reports](https://link.springer.com/article/10.1007/s43154-021-00046-5): A survery of multi-robot coordination and planning in uncertain and adversarial environments.
 
