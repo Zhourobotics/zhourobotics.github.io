@@ -284,7 +284,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       <img class="person-photo" src="/assets/img/IROS2026workshop/speakers/Javier Alonso-Mora.jpeg" alt="Javier Alonso-Mora">
       <div class="speaker-name"><a href="https://www.autonomousrobots.nl/" target="_blank">Javier Alonso-Mora</a></div>
       <div class="speaker-affil">TU Delft</div>
-      <div class="speaker-title">TBD</div>
+      <div class="speaker-title">Foundation Models for Planner Adaptation and Open-World Perception</div>
     </div>
 
     <div class="speaker-card">
@@ -334,7 +334,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       <tr>
         <td class="time-col">9:30 – 9:55</td>
         <td>Invited Talk 3</td>
-        <td><strong>Javier Alonso-Mora</strong> (TU Delft)</td>
+        <td><strong>Javier Alonso-Mora</strong> (TU Delft) &mdash; Foundation Models for Planner Adaptation and Open-World Perception</td>
       </tr>
       <tr>
         <td class="time-col">9:55 – 10:15</td>
