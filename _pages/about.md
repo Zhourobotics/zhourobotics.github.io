@@ -49,7 +49,7 @@ social: true  # includes social icons at the bottom of the page
       <img class="d-block w-100" src="assets/img/autodrive.jpg">
     </div>
     <div class="carousel-item ">
-      <img class="d-block w-100" src="assets/img/robotarm.jpg">
+      <img class="d-block w-100" src="assets/img/roboticarm2026.jpg">
     </div>  
 
 </div>

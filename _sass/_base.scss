@@ -427,6 +427,13 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+
+    // Titles run 3 or 4 lines at the 250px card width, which left the cards
+    // ragged. Reserve the taller of the two so every card lines up.
+    .card-title {
+      min-height: 4.8em;
+      margin-bottom: 0;
+    }
   }
 
   .card-item {
