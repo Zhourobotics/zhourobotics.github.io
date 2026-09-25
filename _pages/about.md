@@ -20,16 +20,6 @@ social: true  # includes social icons at the bottom of the page
 
 
 <!-- ************** Carousel ************** -->
-<style>
-/* Keep every carousel slide the same height. Without this the page jumps as
-   slides fade between images of different aspect ratios. */
-#carouselExampleIndicators .carousel-item img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  object-position: center;
-}
-</style>
-
 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
