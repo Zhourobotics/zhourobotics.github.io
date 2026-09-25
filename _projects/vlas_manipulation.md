@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VLAs for Manipulation
+title: VLAs and WAMs for Manipulation
 description: 
 img: assets/img/robotarm.jpg
 importance: 4

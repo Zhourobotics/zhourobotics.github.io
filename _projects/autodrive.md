@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VLMs for Driving and Navigation
+title: VLMs and WMs for Driving and Navigation
 description: 
 img: assets/img/autodrive.jpg
 importance: 3
