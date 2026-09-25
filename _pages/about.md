@@ -20,18 +20,30 @@ social: true  # includes social icons at the bottom of the page
 
 
 <!-- ************** Carousel ************** -->
+<style>
+/* Keep every carousel slide the same height. Without this the page jumps as
+   slides fade between images of different aspect ratios. */
+#carouselExampleIndicators .carousel-item img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+</style>
+
 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-<!--     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li> -->
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/lab2026.jpg">
+    </div>
+    <div class="carousel-item ">
       <img class="d-block w-100" src="assets/img/labmempic.jpg">
     </div> 
     <div class="carousel-item ">
