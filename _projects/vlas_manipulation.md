@@ -2,7 +2,7 @@
 layout: page
 title: VLAs and WAMs for Manipulation
 description: 
-img: assets/img/roboticarm2026.jpg
+img: assets/img/robotarm.jpg
 importance: 4
 category: current
 ---
