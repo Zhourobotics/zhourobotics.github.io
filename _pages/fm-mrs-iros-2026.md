@@ -402,7 +402,7 @@ html[data-theme='dark'] .schedule-table tr:nth-child(even) td {
       </li>
       <li>
         <span class="paper-title">PIP-LLM: Integrating PDDL-Integer Programming with LLMs for Coordinating Multi-Robot Teams Using Natural Language</span>
-        <span class="paper-authors">Guangyao Shi</span>
+        <span class="paper-authors">Guangyao Shi, Yuwei Wu, Vijay Kumar, Gaurav S. Sukhatme</span>
       </li>
       <li>
         <span class="paper-title">NeuroMesh: A Unified Neural Inference Framework for Decentralized Multi-Robot Collaboration</span>
